@@ -1405,3 +1405,6 @@ footer{
     top: -15px;
     left: 360px;
 }
+.op input{
+    accent-color: black;
+}
