@@ -1,0 +1,2204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo 4.png" type="image/x-icon">
+    <title>Travel with Dream</title>
+</head>
+
+<body>
+    <div class="top-container">
+        <div class="topC" id="nav">
+            <!-- nav bar -->
+            <div class="navbar">
+                <div class="logo">
+                    <!-- logo -->
+                    <a href="#"><img src="./img/logo 4.png" alt=""></a>
+                </div>
+                <div class="options">
+                    <div class="child fst-child">
+                        <a href="#offers">
+                            <span><img class="nav-offer-img" src="img/offer.png" alt=""></span>
+                            <div class="inner">
+                                <h4>Super Offers</h4>
+                                <p>Explore greate details & offers</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="child snd-child">
+                        <a href="#">
+                            <span><img class="Biz-img" src="img/paper-bag.png" alt=""></span>
+                            <div class="inner">
+                                <h4>Introducing myBiz</h4>
+                                <p>Business Travel Solution</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="child trd-child">
+                        <a href="#">
+                            <span><img class="travle-img" src="img/travel.png" alt=""></span>
+                            <div class="inner">
+                                <h4>My Trips</h4>
+                                <p>Manage your bookings</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="child user-child">
+                        <a href="#">
+                            <span><img class="user-img" src="img/user.png" alt=""></span>
+                            <div class="inner user-inner">
+                                <h4>user</h4>
+                                <div class="arrow"><i class="fa-solid fa-angle-down fa-fw" id="user-downArrow"></i><i
+                                        class="fa-solid fa-angle-up fa-fw" id="user-upArrow"></i></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="child lst-child">
+                        <div class="language"></div>
+                        <a href="#">
+                            <span><img class="flag-img" src="img/india.png" alt=""></span>
+                            <div class="inner lst-inner">
+                                <h4>IN|ENG|INR</h4>
+                                <div class="arrow"><i class="fa-solid fa-angle-down fa-fw" id="lang-downArrow"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-box">
+                    <a id="home" href="home.html">
+                        <div class="menu-child active">
+                            <div><i class="fa-solid fa-plane-up"></i></div>
+                            <p>Flights</p>
+                        </div>
+                    </a>
+                    <a id="hotels" href="hotel.html">
+                        <div class="menu-child">
+                            <div><i class="fa-solid fa-hotel"></i></div>
+                            <p>Hotels</p>
+                        </div>
+                    </a>
+                    <a href="bus.html">
+                        <div class="menu-child">
+                            <div><i class="fa-solid fa-bus"></i></div>
+                            <p>Buses</p>
+                        </div>
+                    </a>
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-taxi"></i></div>
+                        <p>Cabs</p>
+                    </div>
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-hotel"></i></div>
+                        <p>Trains</p>
+                    </div>
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-house-chimney"></i></div>
+                        <p>Homestays</p>
+                    </div>
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-gift"></i></div>
+                        <p>Holiday</p>
+                    </div>
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-wallet"></i></div>
+                        <p>Forex</p>
+                    </div>
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-helicopter"></i></div>
+                        <p>Helicopter</p>
+                    </div>
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-person-hiking"></i></div>
+                        <p>Activities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- user pop up -->
+        <div class="user-pop-up">
+            <div class="user-pop-inner">
+                <a href="#">
+                    <div class="user-pop-child">
+                        <span class="us-pop-img"><i class="fa-regular fa-user"></i></span>
+                        <div class="us-pop-txt">
+                            <h4>My Profile</h4>
+                            <p>Manage your profile, traveller details, login details and password</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="user-pop-child">
+                        <span class="us-pop-img"><i class="fa-solid fa-suitcase"></i></span>
+                        <div class="us-pop-txt">
+                            <h4>My Trips</h4>
+                            <p>See booking details, Print e-ticket, Cancel Booking, Modify Booking, Check Refund Status
+                                & more.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="user-pop-child">
+                        <span class="us-pop-img"><i class="fa-solid fa-wallet"></i></span>
+                        <div class="us-pop-txt">
+                            <h4>My Wallet</h4>
+                            <p>Use your wallet money to avail even greater discounts</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="user-pop-child">
+                        <span class="us-pop-img"><i class="fa-regular fa-credit-card"></i></span>
+                        <div class="us-pop-txt">
+                            <h4>Make a payment</h4>
+                            <p>Complete your pending payments here</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="menu-box">
+                <a id="home" href="home.html">
+                    <div class="menu-child active">
+                        <div><i class="fa-solid fa-plane-up"></i></div>
+                        <p>Flights</p>
+                    </div>
+                </a>
+                <a id="hotels" href="hotel.html">
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-hotel"></i></div>
+                        <p>Hotels</p>
+                    </div>
+                </a>
+                <a href="bus.html">
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-bus"></i></div>
+                        <p>Buses</p>
+                    </div>
+                </a>
+                <div class="menu-child">
+                    <div><i class="fa-solid fa-taxi"></i></div>
+                    <p>Cabs</p>
+                </div>
+                <div class="menu-child">
+                    <div><i class="fa-solid fa-train"></i></div>
+                    <p>Trains</p>
+                </div>
+                <div class="menu-child">
+                    <div><i class="fa-solid fa-house-chimney"></i></div>
+                    <p>Homestays</p>
+                </div>
+                <div class="menu-child">
+                    <div><i class="fa-solid fa-gift"></i></div>
+                    <p>Holiday</p>
+                </div>
+                <div class="menu-child">
+                    <div><i class="fa-solid fa-wallet"></i></div>
+                    <p>Forex</p>
+                </div>
+                <div class="menu-child">
+                    <div><i class="fa-solid fa-helicopter"></i></div>
+                    <p>Helicopter</p>
+                </div>
+                <div class="menu-child">
+                    <div><i class="fa-solid fa-person-hiking"></i></div>
+                    <p>Activities</p>
+                </div>
+            </div>
+            <div class="option">
+                <div class="op">
+                   <div class="op1">
+                        <input type="radio" name="trip-ops" id="onway" checked="checked">
+                        <label for="onway">ONWAY</label>
+                    </div>
+                    <div class="op2">
+                        <input type="radio" name="trip-ops" id="round-trip">
+                        <label for="round-trip">ROUND TRIP</label>
+                    </div>
+                    <div class="op3">
+                        <input type="radio" name="trip-ops" id="multi-city">
+                        <label for="multi-city">Multi City</label>
+                    </div>
+                </div>
+                <span class="txt">
+                    Book International and Domestic Flights
+                </span>
+            </div>
+            <div class="booking">
+                <div class="change"><img src="img/exchange.png" alt=""></div>
+                <div class="loc ll" id="from">
+                    <span class="l1" id="f1">FROM</span>
+                    <span class="l-city" id="city-A">Kolkata</span>
+                    <span class="l-airport" id="city-A-txt">Netaji Subhash Chandra Bose International Airport</span>
+                </div>
+                <div class="loc" id="to">
+                    <span class="l1" id="t1">TO</span>
+                    <span class="l-city" id="city-B">Delhi</span>
+                    <span class="l-airport" id="city-B-txt">DEL, Delhi Airport India</span>
+                </div>
+                <div class="time" id="time">
+                    <div class="l2 cl">DEPARTURE<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span>
+                    </div>
+                    <div class="date cl2"><span class="day" id="day"></span><span class="mm-yy"><span
+                                id="month"></span>'<span id="year"></span></span></div>
+                    <div class="t-day" id="dayweek"></div>
+                </div> 
+                <div class="time" id="time2">
+                    <div class="l2 cl3">RETURN<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span></div>
+                    <div class="r-txt cl4">Tap to add a return date for bigger discounts</div>
+                </div>
+                <div class="position">
+                    <div class="l2">TRAVELLERS & CLASS<span class="down"><i
+                                class="fa-solid fa-angle-down fa-fw"></i></span></div>
+                    <div class="date"><span class="day">1</span><span class="mm-yy">Traveller</span></div>
+                    <div class="t-txt">
+                        <p class="tp">Economy/Premium Economy</p>
+                        <p class="offer">Group Bookings Available!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="button"><button class="btn">SEARCH</button></div>
+            <!-- from city pop-up -->
+            <div class="from-popUp-main" id="from-popup">
+                <div class="from-input">
+                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <input class="from-inp" type="text" placeholder="From" autofocus="on">
+                </div>
+                <div class="from-down">
+                    <div class="recent-city">
+                        <p class="r-city">RECENT CITY</p>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Kolkata, India</p>
+                                <p class="ct-2">Netaji Subhash Chandra Bose International Airport</p>
+                            </div>
+                            <span class="ct-code">CCU</span>
+                        </div>
+                    </div>
+                    <div class="popular-city">
+                        <p class="r-city">POPULAR CITY</p>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Mumbai, India</p>
+                                <p class="ct-2">Chhatrapati Shivaji International Airport</p>
+                            </div>
+                            <span class="ct-code">BOM</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">New Delhi, India</p>
+                                <p class="ct-2">Indira Gandhi International Airport</p>
+                            </div>
+                            <span class="ct-code">DEL</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct c-beng">
+                                <p class="ct-1">Bengaluru, India</p>
+                                <p class="ct-2">Bengaluru International Airport</p>
+                            </div>
+                            <span class="ct-code">BLR</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct c-bkk">
+                                <p class="ct-1">Bangkok, Thailand</p>
+                                <p class="ct-2">Bangkok</p>
+                            </div>
+                            <span class="ct-code">BKK</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct c-pune">
+                                <p class="ct-1">Pune, India</p>
+                                <p class="ct-2">Pune Airport</p>
+                            </div>
+                            <span class="ct-code">PNQ</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Hyderabad, India</p>
+                                <p class="ct-2">Rajiv Gandhi International Airport</p>
+                            </div>
+                            <span class="ct-code">HYD</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct c-chni">
+                                <p class="ct-1">Chennai, India</p>
+                                <p class="ct-2">Chennai International Airport</p>
+                            </div>
+                            <span class="ct-code">MAA</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Goa, India</p>
+                                <p class="ct-2">Goa Dabolim International Airport</p>
+                            </div>
+                            <span class="ct-code">GOI</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Dubai, United Arab Emirates</p>
+                                <p class="ct-2">Dubai International</p>
+                            </div>
+                            <span class="ct-code">DXB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="to-popUp-main" id="to-popup">
+                <div class="from-input">
+                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <input class="from-inp" type="text" placeholder="To" autofocus="on">
+                </div>
+                <div class="from-down">
+                    <div class="recent-city">
+                        <p class="r-city">POPULAR CITY</p>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Kolkata, India</p>
+                                <p class="ct-2">Netaji Subhash Chandra Bose International Airport</p>
+                            </div>
+                            <span class="ct-code">CCU</span>
+                        </div>
+                    </div>
+                    <div class="popular-city">
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Mumbai, India</p>
+                                <p class="ct-2">Chhatrapati Shivaji International Airport</p>
+                            </div>
+                            <span class="ct-code">BOM</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">New Delhi, India</p>
+                                <p class="ct-2">Indira Gandhi International Airport</p>
+                            </div>
+                            <span class="ct-code">DEL</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct c-beng">
+                                <p class="ct-1">Bengaluru, India</p>
+                                <p class="ct-2">Bengaluru International Airport</p>
+                            </div>
+                            <span class="ct-code">BLR</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct c-bkk">
+                                <p class="ct-1">Bangkok, Thailand</p>
+                                <p class="ct-2">Bangkok</p>
+                            </div>
+                            <span class="ct-code">BKK</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct c-pune">
+                                <p class="ct-1">Pune, India</p>
+                                <p class="ct-2">Pune Airport</p>
+                            </div>
+                            <span class="ct-code">PNQ</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Hyderabad, India</p>
+                                <p class="ct-2">Rajiv Gandhi International Airport</p>
+                            </div>
+                            <span class="ct-code">HYD</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct c-chni">
+                                <p class="ct-1">Chennai, India</p>
+                                <p class="ct-2">Chennai International Airport</p>
+                            </div>
+                            <span class="ct-code">MAA</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Goa, India</p>
+                                <p class="ct-2">Goa Dabolim International Airport</p>
+                            </div>
+                            <span class="ct-code">GOI</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/departures.png" alt=""></div>
+                            <div class="ct">
+                                <p class="ct-1">Dubai, United Arab Emirates</p>
+                                <p class="ct-2">Dubai International</p>
+                            </div>
+                            <span class="ct-code">DXB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- DEPARTURE pop up -->
+            <div class="date-popUp-main" id="date-popUp">
+                <div class="dep-pop-inner">
+                    <input type="date" name="" id="">
+                </div>
+            </div>
+            <div class="date-popUp-main-2" id="date-popUp2">
+                <div class="dep-pop-inner">
+                    <input type="date" name="" id="">
+                </div>
+            </div>
+        </div>
+
+        <div class="downcont">
+            <div class="downChild dc1">
+                <span><img src="img/navigation.png" alt=""></span>
+                <div class="ttxt">
+                    <h6>Where2Go</h6>
+                </div>
+            </div>
+            <div class="downChild dc2">
+                <span><img src="img/money.png" alt=""></span>
+                <div class="ttxt">
+                    <h6>Trip Money</h6>
+                    <p>Loan Credit and More</p>
+                </div>
+            </div>
+            <div class="downChild dc3">
+                <span><img src="img/window.png" alt=""></span>
+                <div class="ttxt">
+                    <h6>Explore International Flights</h6>
+                    <p>Cheapest Flights to Paris,Bali,Tokyo & more</p>
+                </div>
+            </div>
+            <div class="downChild dc4">
+                <span><img src="img/man (1).png" alt=""></span>
+                <div class="ttxt">
+                    <h6>MICE</h6>
+                    <p>Plan Your <span id="spp">Offsite</span> with Us</p>
+                </div>
+            </div>
+            <div class="downChild dc5">
+                <span><img src="img/gift-card.png" alt=""></span>
+                <div class="ttxt">
+                    <h6>Gift Cards</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- offer tab -->
+    <div class="offers" id="offers">
+        <div class="offers-box">
+            <div class="offers-nav">
+                <div class="offer-txt-box">
+                    <div class="offer-txt">
+                        <h5>Offers</h5>
+                    </div>
+                </div>
+                <!-- offer btns -->
+                <div class="offers-buttons">
+                    <div class="btnss">
+                        <div class="offers-button-box"><span class="offer-button-txt active-txt" id="fast-booking">ON
+                                1ST BOOKING</span></div>
+                        <div class="offers-button-box"><span class="offer-button-txt" id="all-offers">ALL OFFERS</span>
+                        </div>
+                        <div class="offers-button-box"><span class="offer-button-txt" id="bank-offers">BANK
+                                OFFERS</span></div>
+                        <div class="offers-button-box" id="flight-offers"><span class="offer-button-txt">FLIGHTS</span>
+                        </div>
+                        <div class="offers-button-box"><span class="offer-button-txt" id="hotel-offers">HOTELS</span>
+                        </div>
+                        <div class="offers-button-box"><span class="offer-button-txt"
+                                id="holidays-offers">HOLIDAYS</span></div>
+                        <div class="offers-button-box" id="train-offers"><span class="offer-button-txt">TRAINS</span>
+                        </div>
+                        <div class="offers-button-box"><span class="offer-button-txt" id="cab-offers">CABS</span></div>
+                        <div class="offers-button-box"><span class="offer-button-txt" id="other-offers">OTHERS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- offer options -->
+            <div class="offer-down-main">
+                <!-- sc fast booking -->
+                <div class="sc" id="fast-booking-tab">
+                    <div class="offer-down-box">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//Welcome-DF02-190922@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For Your First Flight Booking!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Flat 10% OFF</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//Welcome-DH-190922@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For Your 1st Hotel Booking!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Upto 25% OFF</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Welcome-Bus-190922@2x@2x@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For Your First Bus Booking!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Up to Rs. 100 OFF*</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//Welcome-Train-190922@2x@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For Your 1st Train Booking</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Zero Convenience Fee</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Welcome-Cab-190922@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For Your First Outstation Cab Booking!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Up to Rs. 200 OFF*</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Welcome-Offer-190922@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">A Welcome Surprise For You!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Up to 30% OFF* on your first flight, hotel & more booking!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sc all offers -->
+                <div class="sc-all-offers" id="all-offers-tab">
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//116X116-vistara-23122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">ALERT: Vistara’s Flight Sale is LIVE NOW!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book domestic flights with up to Rs. 1,500 OFF*!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//vietnam-116x116-02122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Enjoy Up to 30% OFF* on Vietnam Hotels</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">& make the most of your trip!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//EuropeSunsational_DT_Banner.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For Your European Summer Vacay:</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book holiday packages before 9th Jan & avoid price hike.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="		https://promos.makemytrip.com/notification/xhdpi//gofirst-116x116-20122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">JUST IN: New Flights by Go First</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">flying between Kolkata and Delhi!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//kuwait-airways-116x116-22122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">LIVE NOW: Winter Carnival Sale by Kuwait Airways!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book international flights @ up to 20% OFF*.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//ita-airways-116x116-21122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">JUST IN: ITA Airways, A New International Airline!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book a direct flight NOW between Delhi and Rome.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="		https://promos.makemytrip.com/notification/xhdpi//116X116-simpl-03112022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Now Grab Up to 10% OFF*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">on domestic hotels, outstation cabs & buses for your next trip
+                                        in India!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="		https://promos.makemytrip.com/notification/xhdpi//spicejet-116x116-05092022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">INTRODUCED: New Return Flights by SpiceJet</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">between Delhi and Jeddah!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="			https://promos.makemytrip.com/notification/xhdpi//mobikwik-116x116-26122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">It's the Season of #DiscountDEALights!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Pay with MobiKwik & grab up to Rs. 700 OFF* on domestic
+                                        flights, hotels, homestays & bus bookings.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="		https://promos.makemytrip.com/notification/xhdpi//116X116-IH-HoneyMoon-21112022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Love-filled Deal for Your Honeymoon: Up to 30% OFF...</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">on International Hotels. Have a romantic vacay!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="			https://promos.makemytrip.com/notification/xhdpi//Desktop_IRCTC_30Dec@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">To Book Your Train Journeys with Us:</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Sign up with IRCTC & enjoy a hassle-free booking process!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="			https://promos.makemytrip.com/notification/xhdpi//116x116-bob-02012023.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Avail Interest FREE* EMI + Up to 30% OFF*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">on flights, hotels & holiday packages for your trips in India &
+                                        abroad!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="				https://promos.makemytrip.com/notification/xhdpi//116x116-ExtraBaggage-05092022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Carry Extra Baggage @ 20%* Lower Prices!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Now purchase EXCESS BAGGAGE allowance in advance & save BIG
+                                        bucks on your journey.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="				https://promos.makemytrip.com/notification/xhdpi//Group-Desktop-Banner-131222.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For You: Group Booking Benefits on Flights</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">in India! Book 9+ flight tickets together & save more.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sc bank offers -->
+                <div class="sc-bank-offers" id="bank-offers-tab">
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//desktop-AU-11122.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Save BIG on Your Next Break</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">with discounts on flights, hotels, homestays, cabs & buses.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="		https://promos.makemytrip.com/notification/xhdpi//Citi_DT_DF_OND.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Flat 12% Instant Discount on Domestic Flights!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Valid Only on Citi Credit and Debit cards.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="		https://promos.makemytrip.com/notification/xhdpi//HSBC_Bank_JFM23_DT_Banner.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Grab Up to 15% OFF* on</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">domestic + international flights, hotels & homestays for your
+                                        memorable trips!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="			https://promos.makemytrip.com/notification/xhdpi//Axis_DT_Flights.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">FLAT 12% OFF* on Domestic Flights!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Valid on Axis Bank Credit & Debit Cards</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="	https://promos.makemytrip.com/notification/xhdpi//Axis_DT_Flights.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Get FLAT 8% OFF* on International Flights</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">and save big on your dream trip!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="		https://promos.makemytrip.com/notification/xhdpi//axisbank-116x116-27072022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Grab Now: FLAT 15% OFF* on Stays in India</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">and save big on your next trip.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="			https://promos.makemytrip.com/notification/xhdpi//df-Kotak-116x116-22102021.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">HUGE Savings for Your Next Vacay:</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Grab FLAT 12% OFF*on domestic flights</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="		https://promos.makemytrip.com/notification/xhdpi//dh-Kotak-116x116-22102021.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Grab FLAT 15% OFF*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">on domestic hotels, villas & apartments</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Citi_DT_Banner_12Oct.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Grab FLAT 10% OFF* on International Flights</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">& get set for your dream trip abroad.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box" style="visibility: hidden;">
+                            <div class="inner-top">
+                                <div class="offer-img"><img src="" alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Grab FLAT 10% OFF* on International Flights</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">& get set for your dream trip abroad.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sc flights offers -->
+                <div class="sc-flight-offers" id="flight-offers-tab">
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116X116-vistara-23122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">ALERT: Vistara’s Flight Sale is LIVE NOW!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book domestic flights with up to Rs. 1,500 OFF*!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//gofirst-116x116-20122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">JUST IN: New Flights by Go First</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">flying between Pune and Ahmedabad!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//kuwait-airways-116x116-22122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">LIVE NOW: Winter Carnival Sale by Kuwait Airways!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book international flights @ up to 20% OFF*.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//ita-airways-116x116-21122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">JUST IN: ITA Airways, A New International Airline!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book a direct flight NOW between Delhi and Rome.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//spicejet-116x116-05092022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">INTRODUCED: New Return Flights by SpiceJet</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">between Delhi and Jeddah!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//mobikwik-116x116-26122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">It's the Season of #DiscountDEALights!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Pay with MobiKwik & grab up to Rs. 700 OFF* on domestic
+                                        flights, hotels, homestays & bus bookings.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116x116-bob-02012023.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Avail Interest FREE* EMI + Up to 30% OFF*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">on flights, hotels & holiday packages for your trips in India &
+                                        abroad!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Citi_DT_DF_OND.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Flat 12% Instant Discount on Domestic Flights!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Valid Only on Citi Credit and Debit cards.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Flights-insurance-116x116.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Get Your Journey Insured @ JUST Rs. 79*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">and get claim of up to Rs. 3000*.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//AncillaryMeals-01092022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Meals for Your Flights @ up to 20% Lower Prices!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Now book your meal in advance & save BIG bucks on your journey.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sc hotel offers -->
+                <div class="sc-hotal-offers" id="hotel-offers-tab">
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//oyo-116x116-10112022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Get FLAT 13% OFF* on Select OYO Hotels</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">& enjoy comfortable stays.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116X116-simpl-03112022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Now Grab Up to 10% OFF*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">on domestic hotels, outstation cabs & buses for your next trip
+                                        in India!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//mobikwik-116x116-26122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">It's the Season of #DiscountDEALights!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Pay with MobiKwik & grab up to Rs. 700 OFF* on domestic
+                                        flights, hotels, homestays & bus bookings.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Desktop-Group-Features-191222.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">With the Group Booking Feature: </div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Get up to 25% OFF* on booking minimum 6 hotel rooms. </div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116X116-IH-HoneyMoon-21112022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Love-filled Deal for Your Honeymoon: Up to 30% OFF...</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">& have the most rejuvenating trip ever!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116x116-IH-Bali-28122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Grab Up to 30% OFF* on Bali Hotels</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">& have the most rejuvenating trip ever!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//vietnam-116x116-02122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Enjoy Up to 30% OFF* on Vietnam Hotels</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">& make the most of your trip!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116x116-MMTValueStays-08082022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Worry-Free Stays Assured at TOP-RATED Affordable P...</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Or get 100% Money Back. Book now @ Up to 30% OFF*.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Citi_JFM23_Bank_DT_Banner_DH.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Grab FLAT 15% OFF* on Domestic Hotels</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">and get set for refreshing stays!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//desktop-HourlyStay-new-171022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">INTRODUCING Hourly Stays: Stays-by-the-Hour That C...</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">With flexible check-ins for 3, 6 or 9 hours!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sc holidays offers -->
+                <div class="sc-holidays-offers" id="holidays-offers-tab">
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//EuropeSunsational_DT_Banner.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For Your European Summer Vacay:</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book holiday packages before 9th Jan & avoid price hike.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Desktop_HoneymoonPackage_23Aug@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For Matches Made in Heaven:</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">PERSONALISED HONEYMOON PACKAGES, incl. special experiences,
+                                        starting @ JUST Rs. 29,000.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Desktop_Pilgrimage_19July.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For a Peaceful, Spiritual Break:</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Grab up to 30% OFF* on our specially-curated pilgrimage holiday
+                                        packages.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Desktop_Wildlife_22Aug@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">For a Thrilling Escape into the Wild:</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Grab up to 30% OFF* on our specially-curated wildlife holiday
+                                        packages.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116x116-bob-02012023.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Avail Interest FREE* EMI + Up to 30% OFF*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">on flights, hotels & holiday packages for your trips in India &
+                                        abroad!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box" style="visibility: hidden;">
+                            <div class="inner-top">
+                                <div class="offer-img"><img src="" alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Grab Up to 30% OFF* on Bali Hotels</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">& have the most rejuvenating trip ever!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sc train offers -->
+                <div class="sc-train-offers" id="train-offers-tab">
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Desktop_IRCTC_30Dec@2x.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">To Book Your Train Journeys with Us:</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Sign up with IRCTC & enjoy a hassle-free booking process!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel" style="width: 103px;"></div>
+                                <div class="details">Explore Now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sc cab offers -->
+                <div class="sc-cab-offers" id="cab-offers-tab">
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116X116-simpl-03112022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Now Grab Up to 10% OFF*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">on domestic hotels, outstation cabs & buses for your next trip
+                                        in India!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//desktop-AU-11122.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Save BIG on Your Next Break</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">with discounts on flights, hotels, homestays, cabs & buses.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//mobikwik-116x116-26122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">It's the Season of #DiscountDEALights!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Pay with MobiKwik & grab up to Rs. 700 OFF* on domestic
+                                        flights, hotels, homestays & bus bookings.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box" style="visibility: hidden;">
+                            <div class="inner-top">
+                                <div class="offer-img"><img src="" alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Grab Up to 30% OFF* on Bali Hotels</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">& have the most rejuvenating trip ever!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sc other offers -->
+                <div class="sc-other-offers" id="other-offers-tab">
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116X116-IF-CFAR-26092022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">INTRODUCED: ‘Zero Cancellation’!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">A WOW benefit to help you get 100% refund on international
+                                        flight cancellations.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//health-professionals-116x116-06092022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">INTRODUCED: Special Fares for Healthcare Professio...</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">+ ADDITIONAL up to Rs. 2000 OFF* on domestic flights!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Group-Desktop-Banner-131222.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">LIVE NOW: Winter Carnival Sale by Kuwait Airways!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book international flights @ up to 20% OFF*.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//ita-airways-116x116-21122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">JUST IN: ITA Airways, A New International Airline!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Book a direct flight NOW between Delhi and Rome.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//spicejet-116x116-05092022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">INTRODUCED: New Return Flights by SpiceJet</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">between Delhi and Jeddah!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//mobikwik-116x116-26122022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">It's the Season of #DiscountDEALights!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Pay with MobiKwik & grab up to Rs. 700 OFF* on domestic
+                                        flights, hotels, homestays & bus bookings.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//116x116-bob-02012023.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Avail Interest FREE* EMI + Up to 30% OFF*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">on flights, hotels & holiday packages for your trips in India &
+                                        abroad!</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Citi_DT_DF_OND.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Flat 12% Instant Discount on Domestic Flights!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Valid Only on Citi Credit and Debit cards.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-down-box2">
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//Flights-insurance-116x116.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Get Your Journey Insured @ JUST Rs. 79*</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">and get claim of up to Rs. 3000*.</div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                        <div class="offer-child-box">
+                            <div class="inner-top">
+                                <div class="offer-img"><img
+                                        src="https://promos.makemytrip.com/notification/xhdpi//AncillaryMeals-01092022.jpg"
+                                        alt=""></div>
+                                <div class="offer-wr">
+                                    <div class="wr-top">Meals for Your Flights @ up to 20% Lower Prices!</div>
+                                    <span class="red"></span>
+                                    <div class="wr-down">Now book your meal in advance & save BIG bucks on your journey.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-down">
+                                <div class="tc">T&C's Apply</div>
+                                <div class="wel">WELCOME TwD</div>
+                                <div class="details">ViewDetails</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="third-container">
+        <div class="t-sc">
+            <div class="t-child">
+                <span><img src="img/airplane-flight.png" alt=""></span>
+                <div class="t2-txt">
+                    <p><b>Planning to book an international flight?</b></p>
+                    <p>Call 0124-4628747 for booking assistance</p>
+                </div>
+            </div>
+            <div class="t-child">
+                <span><img src="img/languages.png" alt=""></span>
+                <div class="t2-txt">
+                    <p><b>We are now available in हिंदी!</b></p>
+                    <p><a href="#">Click here to change language</a></p>
+                </div>
+            </div>
+            <div class="t-child">
+                <span><img src="img/globe-grid.png" alt=""></span>
+                <div class="t2-txt">
+                    <p><b>Complete your web check-in.</b></p>
+                    <p><a href="#">Click to know more</a></p>
+                </div>
+            </div>
+            <div class="t-child">
+                <span><img src="img/travelling.png" alt=""></span>
+                <div class="t2-txt">
+                    <p><b>Taking a flight? </b></p>
+                    <p><a href="#">Click to check travel guidelines</a></p>
+                </div>
+            </div>
+            <div class="t-child">
+                <span><img src="img/travelling.png" alt=""></span>
+                <div class="t2-txt">
+                    <p><b>Check international destinations open for Indians here, with their guidelines</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- download app -->
+    <div class="app-container">
+        <div class="app-main">
+            <div class="app-txt">
+                <h2>Download App Now !</h2>
+                <p>Get the TravleWithDream mobile App and Save More!</p>
+            </div>
+            <div class="app-down">
+                <div class="app-child1">
+                    <div class="app-img"><img src="img/gift-box.png" alt=""></div>
+                    <div class="app-mob">
+                        <p>Use code <b>WELCOMETWD</b> and get upto <b>Rs 1200</b> off on your first domestic flight
+                            booking</p>
+                        <div class="app-inp">
+                            <div class="cuntry-code">
+                                <span><img src="img/india.png" alt=""></span>
+                                <span class="code">+91</span>
+                            </div>
+                            <input class="app-input" type="text" placeholder="Enter Mobile number ">
+                            <button class="app-btn" type="submit">GET APP LINK</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-child2">
+                    <p class="more-way-txt">MORE WAYS TO GET THE APP</p>
+                    <div class="qr-box">
+                        <div class="app-download">
+                            <div class="playstore">
+                                <div class="playimg"><img class="play" src="img/google-play.png" alt=""></div>
+                                <div class="playstore-txt">
+                                    <p class="play-ttx">GET IT NOW</p>
+                                    <P class="gp">Google play</P>
+                                </div>
+                            </div>
+                            <div class="appstore">
+                                <div class="playimg"><img class="apple" src="img/apple.png" alt=""></div>
+                                <div class="playstore-txt">
+                                    <p class="apple-ttx">Download on the</p>
+                                    <P class="gp">App Store</P>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qr">
+                            <img src="img/qr-code.png" alt="">
+                            <p>Scan QR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- order container -->
+    <div class="ordernow-container">
+        <div class="order-inner" style="border-color: rgb(255, 203, 202);">
+            <img class="ord-img" src="	https://www.tripmoney.com/ext/static/TravelLoan/travelLoan.png" alt="">
+            <div class="od-box">
+                <span class="tr-money">
+                    <p class="trip">Trip</p><img src="img/mountain.png" alt="">
+                    <p class="oney">oney</p>
+                </span>
+                <p class="ord-txt"><b>Forex</b> at best exchange rates delivered at your doorstep</p>
+            </div>
+            <a href="#" class="ord-btn">ORDER NOW<img src="img/right-arrow.png" alt=""></a>
+        </div>
+    </div>
+
+    <!-- photo gallery -->
+    <div class="gallery-main">
+        <div class="sc-g">
+            <div class="gallery-sc">
+                <div class="fst-slid">
+                    <div class="gallery-child">
+                        <div class="gallery">
+                            <a href="#">
+                                <img src="https://hblimg.mmtcdn.com//content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg"
+                                    alt="">
+                                <div class="gallery-txt">Shimla's Best Kept Secret</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-child">
+                        <div class="gallery">
+                            <a href="#">
+                                <img src="https://hblimg.mmtcdn.com//content/hubble/img/dooars/mmt/destination/m_Dooars_l_457_685.jpg"
+                                    alt="">
+                                <div class="gallery-txt">Picturesque Gateway to Himalayas</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-child">
+                        <div class="gallery">
+                            <a href="#">
+                                <img src="https://hblimg.mmtcdn.com//content/hubble/img/mandarmani/mmt/destination/m_destination-mandarmoni-landscape_l_400_640.jpg"
+                                    alt="">
+                                <div class="gallery-txt">Seaside Resort Village in West Bengal</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="snd-slid">
+                    <div class="gallery-child">
+                        <div class="gallery">
+                            <a href="#">
+                                <img src="https://hblimg.mmtcdn.com//content/hubble/img/udupi/mmt/destination/m_destination-udupi-landscape_l_400_640.jpg"
+                                    alt="">
+                                <div class="gallery-txt">Spiritual Coastal Town in Karnataka</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-child">
+                        <div class="gallery">
+                            <a href="#">
+                                <img src="https://hblimg.mmtcdn.com//content/hubble/img/dandeli/mmt/destination/m_Destination_Dandeli_l_536_804.jpg"
+                                    alt="">
+                                <div class="gallery-txt">A Green Getaway in Karnataka</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-child">
+                        <div class="gallery">
+                            <a href="#">
+                                <img src="https://hblimg.mmtcdn.com//content/hubble/img/sasan/mmt/destination/m_destination_sasan_gir_l_400_640.jpg"
+                                    alt="">
+                                <div class="gallery-txt">Nature Lover's Paradise in Gujarat</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="right-swip-arrow" src="img/right.png" alt="">
+        <img class="left-swip-arrow" src="img/left.png" alt="">
+    </div>
+
+    <!-- citys -->
+    <div class="city-main">
+        <div class="city-box">
+            <div class="city-child">
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/images/50x50-Other-23052019.png"
+                            alt=""></span>
+                    <div class="cc">
+                        <h4>Chennai Flights</h4>
+                        <p>Via-<b>Delhi,Mumbai,Coimbatore,Madurai</b></p>
+                    </div>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/images/50x50-Ooty-23052019.png"
+                            alt=""></span>
+                    <div class="cc">
+                        <h4>Hyderabad Flights</h4>
+                        <p>Via-<b>Chennai,Mumbai,Bengalore,Delhi</b></p>
+                    </div>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/SingaporeDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Kolkata Flights</h4>
+                        <p>Via-<b>Delhi,Mumbai,Bengalore,Pune</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="city-child">
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/GoaDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Goa Flights</h4>
+                        <p>Via-<b>Delhi,Mumbai,Pune,Ahmedabad</b></p>
+                    </div>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/DelhiDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Delhi Flights</h4>
+                        <p>Via-<b>Chennai,Mumbai,Bengalore,Kolkata</b></p>
+                    </div>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/BangaloreDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Bengalore Flights</h4>
+                        <p>Via-<b>Delhi,Mumbai,Kolkata,Pune</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="city-child">
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/MumbaiDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Mumbai Flights</h4>
+                        <p>Via-<b>Delhi,Mumbai,Chennai,Ahmedabad</b></p>
+                    </div>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/PuneDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Pune Flights</h4>
+                        <p>Via-<b>Delhi,Bengalore,Chennai,Ahmedabad</b></p>
+                    </div>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/JaipurDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Jaipur Flights</h4>
+                        <p>Via-<b>Delhi,Mumbai,Kolkata,Pune</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- about us -->
+    <div class="about-us-main">
+        <p class="about-h">PRODUCT OFFERING</p>
+        <p class="about-p">Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and
+            Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate
+            Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From
+            US, Book Flights From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel Blog, PNR Status,
+            MakeMyTrip Advertising Solutions, One Way Cab</p>
+
+        <p class="about-h">TravleWithDream</p>
+        <P class="about-p">About Us, Investor Relations, Careers, TWD Foundation, CSR Policy, myPartner - Travel Agent
+            Portal, Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us</P>
+
+        <p class="about-h">ABOUT THE SITE</p>
+        <p class="about-p">Customer Support, Payment Security, Privacy Policy, User Agreement, Terms of Service, More
+            Offices, Make A Payment, Work From Home</p>
+
+        <p class="about-h">QUICK LINKS</p>
+        <p class="about-p">Flights Discount Coupons, Domestic Airlines, Indigo Airlines, Air Asia, SpiceJet, GoAir, Air
+            India, Air India Express, Vistara, New Delhi Mumbai Flights, Pune Delhi Flights, Delhi Chennai Flights,
+            Delhi Guwahati Flights, Mumbai Varanasi Flights, Guwahati Delhi Flights, Goa Delhi Flights, Delhi Goa
+            Flights, Delhi Chennai Flights</p>
+
+        <p class="about-h">IMPORTANT LINKS</p>
+        <p class="about-p">Cheap Flights, Flight Status, Chennai Mumbai flights, Mumbai Hyderabad flights, Hyderabad
+            Bangalore flights, Pune Bangalore flights, Mumbai Jaipur flights, Mumbai Chandigarh flights, Bangalore
+            Kolkata flights, Hyderabad Visakhapatnam flights, Chandigarh Bangalore flights, Jaipur Mumbai flights,
+            Mumbai Shirdi Flights, Delhi to Tirupati Flight, Indore to Mumbai Flight, Kolkata to Rupsi Flight, Rupsi to
+            Guwahati Flight, Pasighat to Guwahati Flight, Delhi to Khajuraho flight, Cochin to Agatti Island Flight</p>
+
+        <p class="about-h">CORPORATE TRAVEL</p>
+        <p class="about-p">Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for SME,
+            GST Invoice for International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus
+            booking, myBiz - Best Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate Travel,
+            GST Invoice for Hotels, myBiz for Small Business, Free cancellation on International Flights</p>
+    </div>
+    <!-- footer -->
+    <footer>
+        <section class="footer">
+            <div class="box-container">
+                <span><i class="fas fa-envelope i"></i></span>
+                <div class="box">
+                    <h3>our email</h3>
+                    <p>abcindia@gmail.com</p>
+                    <p>user@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <span><i class="fas fa-clock i"></i></span>
+                <div class="box">
+                    <h3>opening hours</h3>
+                    <p>09:00am to 07:00pm</p>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <span><i class="fas fa-map-marker-alt i"></i></span>
+                    <h3>our office</h3>
+                    <p>kolkata, West Bengal-700019</p>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <span><i class="fas fa-phone i"></i></span>
+                <div class="box">
+                    <h3>our number</h3>
+                    <p>+123-456-7890</p>
+                    <p>+111-555-3330</p>
+                </div>
+            </div>
+
+        </section>
+        <div class="credit"> &copy; copyright 2023 by <span>Sourav Karmakar</span> | all rights reserved!</div>
+
+    </footer>
+
+    <script src="home.js"></script>
+
+</body>
+
+</html>
