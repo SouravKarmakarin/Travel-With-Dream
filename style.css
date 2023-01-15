@@ -1391,6 +1391,18 @@ footer{
 }
 .pp-up-bus{
     z-index: 1;
+    top: 145px;
+}
+.pp-up-bus-tp{
+    left: 457px;
+    z-index: 1;
+    top: 145px;
+}
+.date-popUp-bus{
+    position: absolute;
+    top: 150px;
+    left: 901px;
+    display: none;
 }
 .loc-bus{
     width: 41%;
@@ -1407,4 +1419,67 @@ footer{
 }
 .op input{
     accent-color: black;
+}
+.lang-pop-up-main{
+    height: 190px;
+    width: 250px;
+    position: absolute;
+    top: 47px;
+    left: 1124px;
+    background-color: white;
+    z-index: 1;
+    padding: 10px 8px 8px 8px;
+    border-radius: 7px;
+    box-shadow: 0 3px 30px 0 rgb(0 0 0 / 15%);
+    cursor: pointer;
+    display: none;
+
+}
+.lang-country{
+    display: flex;
+    gap: 120px;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px 0 rgb(0 0 0 / 20%);
+}
+.lang-cct-left{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 7px;
+    gap: 7px;
+}
+.lang-down-arro i{
+    color: #2f5fda;
+}
+.lang-select{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 11px;
+}
+.lang-select span{
+    font-size: 11px;
+    color: #5b5b5b;
+}
+.lg-sl-eng{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+
+}
+.lg-sl-hindi{
+    display: flex;
+    padding-left: 33px;
+    padding-top: 5px;
+}
+.lg-sl-bng{
+    display: flex;
+    padding-left: 33px;
+    padding-top: 5px;
+}
+.lang-cct-country{
+    font-weight: 500;
+}
+.lg-sl-eng label{
+    font-weight: 500;
 }

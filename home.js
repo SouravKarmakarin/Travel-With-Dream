@@ -108,6 +108,17 @@ function popUps() {
             datePopUp2.style.display=`none`;
         })
     })
+    let langPopUp = document.querySelector(`#lang-pop-up`)
+    let langBTN = document.querySelector(`.language`)
+    langBTN.addEventListener(`click`,()=>{
+        langPopUp.style.display=`block`
+        langPopUp.addEventListener(`mouseover`,()=>{
+            langPopUp.style.display=`block`
+        })
+        langPopUp.addEventListener(`mouseout`,()=>{
+            langPopUp.style.display=`none`
+        })
+    })
 }
 popUps();
 
