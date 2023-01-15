@@ -38,6 +38,12 @@ function date() {
     document.querySelector(`#dayweek`).innerHTML = dayOfWeek;
     document.querySelector(`#month`).innerHTML = curMonth;
     document.querySelector(`#year`).innerHTML = year;
+    setInterval(()=>{
+        let Time = new Date()
+        time=Time.getHours()+':'+Time.getMinutes()+':'+Time.getSeconds()
+        document.querySelector(`#local-time`).innerHTML = time;
+    },1000)
+    
 }
 date();
 function userPop() {
@@ -112,6 +118,7 @@ function popUps() {
     let date2 = document.querySelector(`.cl2`)
     date.addEventListener(`click`,()=>{
         datePopUp.style.display=`block`;
+        datePopUp2.style.display=`none`;
         date2.addEventListener(`mouseover`,()=>{
             datePopUp.style.display=`block`;
         })
@@ -123,6 +130,26 @@ function popUps() {
         })
         datePopUp.addEventListener(`mouseover`,()=>{
             datePopUp.style.display=`block`;
+        })
+    })
+    let datePopUp2 = document.querySelector(`#date-popUp2`)
+    let date22 = document.querySelector(`#time2`)
+    let date3 = document.querySelector(`.cl3`)
+    let date4 = document.querySelector(`.cl4`)
+    date22.addEventListener(`click`,()=>{
+        datePopUp2.style.display=`block`;
+        datePopUp.style.display=`none`;
+        date3.addEventListener(`click`,()=>{
+            datePopUp2.style.display=`block`;
+        })
+        date4.addEventListener(`mouseover`,()=>{
+            datePopUp2.style.display=`block`;
+        })
+        datePopUp2.addEventListener(`mouseover`,()=>{
+            datePopUp2.style.display=`block`;
+        })
+        date22.addEventListener(`mouseout`,()=>{
+            datePopUp2.style.display=`none`;
         })
     })
 }

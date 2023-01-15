@@ -1483,3 +1483,47 @@ footer{
 .lg-sl-eng label{
     font-weight: 500;
 }
+.city-bus{
+    justify-content: flex-start;
+    gap: 15px;
+    height: 50px;
+}
+.op-cab{
+    width: 800px;
+}
+.option-cab{
+    margin-top: 9px;
+}
+.loc-cab{
+    width: 28%;
+}
+.pp-up-cab-to{
+    left: 290px;
+}
+.time-cab{
+    border-right: 1px solid #b0b0b0;
+    border-radius: 0;
+}
+.time-cab-pic{
+    border-radius: 7px;
+    border-right: none;
+}
+.date-popUp-cab{
+    top: 148px;
+    left: 614px;
+}
+.date-popUp-cab-return{
+    left: 755px;
+    top: 154px;
+}
+.day-popUp-hotel1{
+    top: 150px;
+    left: 394px;
+}
+.ct-hotel{
+    margin-left: -80px;
+}
+.day-popUp-hotel2{
+    left: 544px;
+    top: 150px;
+}
