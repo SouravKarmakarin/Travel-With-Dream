@@ -5,14 +5,12 @@
 }
 #main{
     width: 100%;
-    height: 100vh;
+    height: 77vh;
+    padding-top: 165px;
 }
 .b1{
     height: 17rem;
     width: 20rem;
-    position: relative;
-    top: 10rem;
-    left: 60rem;
     text-align: center;
     box-shadow: 0 2px 5px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 15%);
     box-sizing: border-box;
@@ -100,11 +98,6 @@ hr{
 }
 .ttl{
     position: relative;
-}
-.nme{
-    position: absolute;
-    top: 11rem;
-    left: 6rem;
 }
 .nme img{
     height: 270px;
@@ -513,23 +506,24 @@ hr{
     padding: 1px 85px 1px 85px;
 }
 .footer{
-    position: relative;
-    top: 27rem;
+   position: fixed;
+   bottom: 0;
     height: 40.5px;
     width: 100%;
     box-shadow: 0 1px 20px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 15%);
 }
 .main-div{
     height: 100%;
-    width: 75%;
+    width: 66%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
 }
 .rr-div{
     height: 100%;
     width: 200px;
-    position: absolute;
-    left: 200px;
+    display: flex;
+    align-items: center;
 }
 .copy{
     position: absolute;
@@ -544,10 +538,11 @@ hr{
     font-family: monospace;
 }
 .ll-div{
-    position: absolute;
-    right: 16rem;
-    top: 11px;
     font-size: 20px;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
 }
 .ll-div span{
     margin-right: 25px;
@@ -609,10 +604,19 @@ hr{
 .pop-up button:hover{
     background-color: #52c73a;
 }
+.ll-div i:hover{
+    color: #0061df;
+}
+.main-inner{
+    display: flex;
+    justify-content: space-around;
+}
+.nme{
+    margin-left: -20px;
+}
 @media(max-width: 480px) {
     .b1{
-        top: 17rem;
-        left: 4.5rem;
+        margin: auto;
     }
     .nme{
         font-size: 50px;
@@ -625,7 +629,20 @@ hr{
         left: 127px;
         text-decoration: 1px underline red;
     }
-    .footer{
-        top: 33.5rem;
+    .main-inner{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .rr-div{
+        font-size: 10px;
+    }
+    .developer{
+        font-size: 15px;
+    }
+    .ll-div{
+        font-size: 15px;
+    }
+    .copy{
+        top: 16px;
     }
 }
