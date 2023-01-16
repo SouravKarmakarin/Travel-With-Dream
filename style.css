@@ -1527,3 +1527,66 @@ footer{
     left: 544px;
     top: 150px;
 }
+.txt-tt{
+    padding-right: 29px;
+    margin-top: -7px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+.txt-tt h5{
+    font-size: 15px;
+}
+.txt-tt p{
+    font-size: 13px;
+}
+.op-train{
+    width: 600px;
+}
+.loc-train{
+    width: 32%;
+}
+.time-train{
+    width: 188px;
+}
+.ttt-train{
+    border-right: none;
+    border-radius: 7px;
+    padding-left: 31px;
+}
+.pp-up-train-to{
+    left: 363px;
+}
+.date-popUp-train{
+    left: 714px;
+}
+.class-down{
+    width: 167px;
+    height: 170px;
+    background-color: white;
+    border-radius: 5px;
+    overflow-y: scroll;
+    padding: 10px;
+    position: absolute;
+    top: 145px;
+    left: 894px;
+    box-shadow: 0 0px 10px 0 rgb(0 0 0 / 20%);
+}
+.ct-tr{
+    padding-top: 15px;
+}
+.r-ct{
+    margin-top: -10px;
+}
+.ct-2{
+    cursor: pointer;
+}
+.ct-2:hover{
+    color: #0069e1;
+}
+.container-train{
+    margin: -60px auto 0;
+}
+.down-train{
+    top:-75px;
+}
