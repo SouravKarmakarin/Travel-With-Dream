@@ -29,7 +29,7 @@ function date() {
     const objToday = new Date()
     weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday')
     dayOfWeek = weekday[objToday.getDay()]
-    dayOfWeekB = weekday[objToday.getDay()+1]
+    dayOfWeekB = weekday[objToday.getDay()+3]
     months = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
     curMonth = months[objToday.getMonth()],
     curYear = objToday.getFullYear()
@@ -39,7 +39,7 @@ function date() {
     document.querySelector(`#dayweek`).innerHTML = dayOfWeek;
     document.querySelector(`#month`).innerHTML = curMonth;
     document.querySelector(`#year`).innerHTML = year;
-    document.querySelector(`#day-b`).innerHTML = day+1;
+    document.querySelector(`#day-b`).innerHTML = day+3;
     document.querySelector(`#dayweek-b`).innerHTML = dayOfWeekB;
     document.querySelector(`#month-b`).innerHTML = curMonth;
     document.querySelector(`#year-b`).innerHTML = year;

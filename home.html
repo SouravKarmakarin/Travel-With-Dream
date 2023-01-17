@@ -80,6 +80,12 @@
                             <p>Flights</p>
                         </div>
                     </a>
+                    <a href="train.html">
+                        <div class="menu-child">
+                            <div><i class="fa-solid fa-train"></i></div>
+                            <p>Trains</p>
+                        </div>
+                    </a>
                     <a id="hotels" href="hotel.html">
                         <div class="menu-child">
                             <div><i class="fa-solid fa-hotel"></i></div>
@@ -96,12 +102,6 @@
                         <div class="menu-child">
                             <div><i class="fa-solid fa-taxi"></i></div>
                             <p>Cabs</p>
-                        </div>
-                    </a>
-                    <a href="train.html">
-                        <div class="menu-child">
-                            <div><i class="fa-solid fa-train"></i></div>
-                            <p>Trains</p>
                         </div>
                     </a>
                     <div class="menu-child">
@@ -167,6 +167,15 @@
                         </div>
                     </div>
                 </a>
+                <a href="index.html">
+                    <div class="user-pop-child">
+                        <span class="us-pop-img"><i class="fa-solid fa-right-from-bracket"></i></span>
+                        <div class="us-pop-txt">
+                            <h4>Log Out</h4>
+                            <p>Click here to create new account</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
         <!-- language pop up -->
@@ -178,14 +187,17 @@
                         <span class="lang-cct-country">India</span>
                     </div>
                     <div class="lang-cct-right">
-                        <span class="lang-down-arro"><i
-                            class="fa-solid fa-angle-down fa-fw"></i></span>
+                        <span class="lang-down-arro"><i class="fa-solid fa-angle-down fa-fw"></i></span>
                     </div>
                 </div>
                 <div class="lang-down">
                     <div class="lang-select">
-                        <span class="lg-sl-ll-p"><p>Select Language</p></span>
-                        <span class="lg-sl-cu-p"><p>Select Currency</p></span>
+                        <span class="lg-sl-ll-p">
+                            <p>Select Language</p>
+                        </span>
+                        <span class="lg-sl-cu-p">
+                            <p>Select Currency</p>
+                        </span>
                     </div>
                     <div class="lang-sl-option">
                         <div class="lg-sl-eng">
@@ -223,6 +235,12 @@
                         <p>Flights</p>
                     </div>
                 </a>
+                <a href="train.html">
+                    <div class="menu-child">
+                        <div><i class="fa-solid fa-train"></i></div>
+                        <p>Trains</p>
+                    </div>
+                </a>
                 <a id="hotels" href="hotel.html">
                     <div class="menu-child">
                         <div><i class="fa-solid fa-hotel"></i></div>
@@ -239,12 +257,6 @@
                     <div class="menu-child">
                         <div><i class="fa-solid fa-taxi"></i></div>
                         <p>Cabs</p>
-                    </div>
-                </a>
-                <a href="train.html">
-                    <div class="menu-child">
-                        <div><i class="fa-solid fa-train"></i></div>
-                        <p>Trains</p>
                     </div>
                 </a>
                 <div class="menu-child">
@@ -270,7 +282,7 @@
             </div>
             <div class="option">
                 <div class="op">
-                   <div class="op1">
+                    <div class="op1">
                         <input type="radio" name="trip-ops" id="onway" checked="checked">
                         <label for="onway">ONWAY</label>
                     </div>
@@ -305,12 +317,15 @@
                     <div class="date cl2"><span class="day" id="day"></span><span class="mm-yy"><span
                                 id="month"></span>'<span id="year"></span></span></div>
                     <div class="t-day" id="dayweek"></div>
-                </div> 
-                <div class="time" id="time2">
-                    <div class="l2 cl3">RETURN<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span></div>
-                    <div class="r-txt cl4">Tap to add a return date for bigger discounts</div>
                 </div>
-                <div class="position">
+                <div class="time" id="time2">
+                    <div class="l2 cl3">RETURN<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span>
+                    </div>
+                    <div class="date cl4"><span class="day" id="day-b"></span><span class="mm-yy"><span
+                                id="month-b"></span>'<span id="year-b"></span></span></div>
+                    <div class="t-day" id="dayweek-b"></div>
+                </div>
+                <div class="position" id="classFlight">
                     <div class="l2">TRAVELLERS & CLASS<span class="down"><i
                                 class="fa-solid fa-angle-down fa-fw"></i></span></div>
                     <div class="date"><span class="day">1</span><span class="mm-yy">Traveller</span></div>
@@ -518,6 +533,38 @@
             <div class="date-popUp-main-2" id="date-popUp2">
                 <div class="dep-pop-inner">
                     <input type="date" name="" id="">
+                </div>
+            </div>
+            <!-- class pop up -->
+            <div class="class-down class-down-flight" style="display: none;" id="class-popUp">
+                <div class="recent-city r-ct">
+                    <div class="ct">
+                        <p class="ct-1 ct-2">All Class</p>
+                    </div>
+                    <div class="ct-tr">
+                        <p class="ct-1 ct-2">Sleeper Class</p>
+                    </div>
+                    <div class="ct-tr">
+                        <p class="ct-1 ct-2">Third AC</p>
+                    </div>
+                    <div class="ct-tr">
+                        <p class="ct-1 ct-2">Second AC</p>
+                    </div>
+                    <div class="ct-tr">
+                        <p class="ct-1 ct-2">First AC</p>
+                    </div>
+                    <div class="ct-tr">
+                        <p class="ct-1 ct-2">Second Seating</p>
+                    </div>
+                    <div class="ct-tr">
+                        <p class="ct-1 ct-2">AC Chair Car</p>
+                    </div>
+                    <div class="ct-tr">
+                        <p class="ct-1 ct-2">First Class</p>
+                    </div>
+                    <div class="ct-tr">
+                        <p class="ct-1 ct-2">Third AC Economy</p>
+                    </div>
                 </div>
             </div>
         </div>
