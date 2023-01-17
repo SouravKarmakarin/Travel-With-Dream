@@ -7,17 +7,17 @@ function date() {
     const objToday = new Date()
     weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday')
     dayOfWeek = weekday[objToday.getDay()]
-    dayOfWeekB = weekday[objToday.getDay() + 4]
+    dayOfWeekB = weekday[objToday.getDay()+0]
     months = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
     curMonth = months[objToday.getMonth()],
-        curYear = objToday.getFullYear()
+    curYear = objToday.getFullYear()
     year = curYear.toString().substring(2, 4)
     day = objToday.getDate()
     document.querySelector(`#day`).innerHTML = day;
     document.querySelector(`#dayweek`).innerHTML = dayOfWeek;
     document.querySelector(`#month`).innerHTML = curMonth;
     document.querySelector(`#year`).innerHTML = year;
-    document.querySelector(`#day-b`).innerHTML = day + 4;
+    document.querySelector(`#day-b`).innerHTML = day+4;
     document.querySelector(`#dayweek-b`).innerHTML = dayOfWeekB;
     document.querySelector(`#month-b`).innerHTML = curMonth;
     document.querySelector(`#year-b`).innerHTML = year;
@@ -45,15 +45,15 @@ function popUps() {
     let to = document.querySelector(`#to`)
     from.addEventListener(`click`, () => {
         fromPopUp.style.display = `block`
-        document.querySelector(`#f1`).style.color = `#0069e1`
+        document.querySelector(`#f1`).style.color=`#0069e1`
         toPopUp.style.display = `none`
         fromPopUp.addEventListener(`mouseover`, () => {
             fromPopUp.style.display = `block`
-            document.querySelector(`#f1`).style.color = `#0069e1`
+            document.querySelector(`#f1`).style.color=`#0069e1`
         })
         fromPopUp.addEventListener(`mouseout`, () => {
             fromPopUp.style.display = `none`
-            document.querySelector(`#f1`).style.color = `#5b5b5b`
+            document.querySelector(`#f1`).style.color=`#5b5b5b`
         })
     })
     from.addEventListener(`mouseleave`, () => {
@@ -62,14 +62,14 @@ function popUps() {
     to.addEventListener(`click`, () => {
         toPopUp.style.display = `block`
         fromPopUp.style.display = `none`
-        document.querySelector(`#t1`).style.color = `#0069e1`
+        document.querySelector(`#t1`).style.color=`#0069e1`
         toPopUp.addEventListener(`mouseover`, () => {
             toPopUp.style.display = `block`
-            document.querySelector(`#t1`).style.color = `#0069e1`
+            document.querySelector(`#t1`).style.color=`#0069e1`
         })
         toPopUp.addEventListener(`mouseout`, () => {
             toPopUp.style.display = `none`
-            document.querySelector(`#t1`).style.color = `#5b5b5b`
+            document.querySelector(`#t1`).style.color=`#5b5b5b`
         })
     })
     to.addEventListener(`mouseleave`, () => {
@@ -79,62 +79,62 @@ function popUps() {
     let date = document.querySelector(`#time`)
     let date1 = document.querySelector(`.cl`)
     let date2 = document.querySelector(`.cl2`)
-    date.addEventListener(`click`, () => {
-        datePopUp.style.display = `block`;
-        date2.addEventListener(`mouseover`, () => {
-            datePopUp.style.display = `block`;
+    date.addEventListener(`click`,()=>{
+        datePopUp.style.display=`block`;
+        date2.addEventListener(`mouseover`,()=>{
+            datePopUp.style.display=`block`;
         })
-        date.addEventListener(`mouseout`, () => {
-            datePopUp.style.display = `none`;
+        date.addEventListener(`mouseout`,()=>{
+            datePopUp.style.display=`none`;
         })
-        date1.addEventListener(`click`, () => {
-            datePopUp.style.display = `block`;
+        date1.addEventListener(`click`,()=>{
+            datePopUp.style.display=`block`;
         })
-        datePopUp.addEventListener(`mouseover`, () => {
-            datePopUp.style.display = `block`;
+        datePopUp.addEventListener(`mouseover`,()=>{
+            datePopUp.style.display=`block`;
         })
     })
     let datePopUp2 = document.querySelector(`#date-popUp2`)
     let date22 = document.querySelector(`#time2`)
     let date3 = document.querySelector(`.cl3`)
     let date4 = document.querySelector(`.cl4`)
-    date22.addEventListener(`click`, () => {
-        datePopUp2.style.display = `block`;
-        date3.addEventListener(`click`, () => {
-            datePopUp2.style.display = `block`;
+    date22.addEventListener(`click`,()=>{
+        datePopUp2.style.display=`block`;
+        date3.addEventListener(`click`,()=>{
+            datePopUp2.style.display=`block`;
         })
-        date4.addEventListener(`mouseover`, () => {
-            datePopUp2.style.display = `block`;
+        date4.addEventListener(`mouseover`,()=>{
+            datePopUp2.style.display=`block`;
         })
-        datePopUp2.addEventListener(`mouseover`, () => {
-            datePopUp2.style.display = `block`;
+        datePopUp2.addEventListener(`mouseover`,()=>{
+            datePopUp2.style.display=`block`;
         })
-        date22.addEventListener(`mouseout`, () => {
-            datePopUp2.style.display = `none`;
+        date22.addEventListener(`mouseout`,()=>{
+            datePopUp2.style.display=`none`;
         })
     })
     let langPopUp = document.querySelector(`#lang-pop-up`)
     let langBTN = document.querySelector(`.language`)
-    langBTN.addEventListener(`click`, () => {
-        langPopUp.style.display = `block`
-        langPopUp.addEventListener(`mouseover`, () => {
-            langPopUp.style.display = `block`
+    langBTN.addEventListener(`click`,()=>{
+        langPopUp.style.display=`block`
+        langPopUp.addEventListener(`mouseover`,()=>{
+            langPopUp.style.display=`block`
         })
-        langPopUp.addEventListener(`mouseout`, () => {
-            langPopUp.style.display = `none`
-        })
-    })
-    let classPop = document.querySelector(`#class-popUp`)
-    let classbt = document.querySelector(`#classFlight`)
-    classbt.addEventListener(`click`, () => {
-        classPop.style.display = `block`
-        classPop.addEventListener(`mouseover`, () => {
-            classPop.style.display = `block`
-        })
-        classPop.addEventListener(`mouseout`, () => {
-            classPop.style.display = `none`
+        langPopUp.addEventListener(`mouseout`,()=>{
+            langPopUp.style.display=`none`
         })
     })
+     let classPop = document.querySelector(`#class-popUp`)
+   let classbt = document.querySelector(`#classFlight`)
+   classbt.addEventListener(`click`,()=>{
+    classPop.style.display=`block`
+    classPop.addEventListener(`mouseover`,()=>{
+        classPop.style.display=`block`
+    })
+    classPop.addEventListener(`mouseout`,()=>{
+        classPop.style.display=`none`
+    })
+   })
 }
 popUps();
 
