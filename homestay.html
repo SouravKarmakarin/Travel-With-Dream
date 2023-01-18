@@ -81,7 +81,7 @@
                         </div>
                     </a>
                     <a href="train.html">
-                        <div class="menu-child active">
+                        <div class="menu-child">
                             <div><i class="fa-solid fa-train"></i></div>
                             <p>Trains</p>
                         </div>
@@ -105,7 +105,7 @@
                         </div>
                     </a>
                     <a href="homestay.html">
-                        <div class="menu-child">
+                        <div class="menu-child active">
                             <div><i class="fa-solid fa-house-chimney"></i></div>
                             <p>Homestays</p>
                         </div>
@@ -238,7 +238,7 @@
                     </div>
                 </a>
                 <a href="train.html">
-                    <div class="menu-child active">
+                    <div class="menu-child">
                         <div><i class="fa-solid fa-train"></i></div>
                         <p>Trains</p>
                     </div>
@@ -262,7 +262,7 @@
                     </div>
                 </a>
                 <a href="homestay.html">
-                    <div class="menu-child">
+                    <div class="menu-child active">
                         <div><i class="fa-solid fa-house-chimney"></i></div>
                         <p>Homestays</p>
                     </div>
@@ -284,287 +284,308 @@
                     <p>Activities</p>
                 </div>
             </div>
-            <div class="option option-cab">
-                <div class="op op-cab op-train">
-                    <div class="op1">
-                        <input type="radio" name="trip-ops" id="onway" checked="checked">
-                        <label for="onway">BOOK TRAIN TICKETS</label>
-                    </div>
-                    <div class="op2">
-                        <input type="radio" name="trip-ops" id="round-trip">
-                        <label for="round-trip">CHECK PNR STATUS</label>
-                    </div>
-                    <div class="op3">
-                        <input type="radio" name="trip-ops" id="multi-city">
-                        <label for="multi-city">LIVE TRAIN STATUS</label>
-                    </div>
-                </div>
-                <span class="txt txt-tt">
-                    <h5>IRCTC Train Ticket Booking</h5>
-                    <p>IRCTC Authorized e-ticketing</p>
+            <div class="option oop2">
+                <div class="op"></div>
+                <span class="txt tttx tttx-home">
+                    Book your ideal Homestay - Villas, Apartments & more.<a href="#"></a>
                 </span>
-
             </div>
             <div class="booking">
-                <div class="loc ll loc-bus loc-cab loc-train" id="from">
-                    <span class="l1" id="f1">FROM</span>
-                    <span class="l-city" id="city-A">Kolkata</span>
-                    <span class="l-airport" id="city-A-txt">HWH, Kolkata Howrah Junction</span>
+                <div class="loc loc2" id="from">
+                    <span class="l2">CITY, PROPERTY NAME OR LOCATION</span>
+                    <span class="l-city">Kolkata</span>
+                    <span class="country">India</span>
                 </div>
-                <div class="loc loc-bus loc-cab loc-train" id="to">
-                    <span class="l1" id="t1">TO</span>
-                    <span class="l-city" id="city-B">Kanpur</span>
-                    <span class="l-airport" id="city-B-txt">CNB, Kanpur Central</span>
+                <div class="time time-hms">
+                    <div class="l2 cl">CHECK-IN DATE<span class="down"><i
+                                class="fa-solid fa-angle-down fa-fw"></i></span>
+                    </div>
+                    <div class="date cl2"><span class="day" id="day"></span><span class="mm-yy"><span
+                                id="month"></span>'<span id="year"></span></span></div>
+                    <div class="t-day" id="dayweek"></div>
                 </div>
-                <div class="time time-train" id="time2">
-                    <div class="l2 cl3">TRAVEL DATE<span class="down"><i
+                <div class="time time-hms" id="time2">
+                    <div class="l2 cl3">CHECK-OUT DATE<span class="down"><i
                                 class="fa-solid fa-angle-down fa-fw"></i></span>
                     </div>
                     <div class="date cl4"><span class="day" id="day-b"></span><span class="mm-yy"><span
                                 id="month-b"></span>'<span id="year-b"></span></span></div>
                     <div class="t-day" id="dayweek-b"></div>
                 </div>
-                <div class="time time-train ttt-train" id="class-bt">
-                    <div class="l2 cl3">CLASS<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span>
+                <div class="position ppp2 ppp3">
+                    <div class="l2">GUESTS<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span>
                     </div>
-                    <div class="date cl4"><span class="day" id="day-b">ALL</span><span class="mm-yy"><span
-                                id="month-b"></span><span id="year-b"></span></span></div>
-                    <div class="t-day" id="dayweek-b">ALL CLASS</div>
+                    <div class="date date-homest"><span class="day"></span><span class="mm-yy"></span><span class="day">
+                            2</span><span class="mm-yy">Adults</span></div>
+                </div>
+                <div class="time ttt2 ttt-hms">
+                    <div class="l2">TRAVELLING FOR<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span>
+                    </div>
+                    <div class="r-txt">Select a Reason (optional)</div>
                 </div>
             </div>
             <div class="button"><button class="btn btn2">SEARCH</button></div>
             <!-- from city pop-up -->
-            <div class="from-popUp-main pp-up-bus" id="from-popup">
+            <div class="from-popUp-main fr-pop-home" id="from-popup">
                 <div class="from-input">
                     <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                     <input class="from-inp" type="text" placeholder="From" autofocus="on">
                 </div>
                 <div class="from-down">
                     <div class="recent-city">
-                        <p class="r-city">RECENT CITY</p>
+                        <p class="r-city">SUGGESSIONS</p>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Kolkata, West Bengal</p>
-                                <p class="ct-2">Kolkata Howrah Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Kolkata</p>
+                                <p class="ct-2">590 properties</p>
                             </div>
-                            <span class="ct-code">HWH</span>
-                        </div>
-                    </div>
-                    <div class="popular-city">
-                        <p class="r-city">POPULAR CITY</p>
-
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Chennai, Tamil Nadu</p>
-                                <p class="ct-2">Chennai Central Railway Station</p>
-                            </div>
-                            <span class="ct-code">MAS</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Delhi, Delhi</p>
-                                <p class="ct-2">New Delhi Railway Station</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Delhi</p>
+                                <p class="ct-2">879 properties</p>
                             </div>
-                            <span class="ct-code">NDLS</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Mumbai, Maharashtra</p>
-                                <p class="ct-2">Kalyan Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Bengaluru</p>
+                                <p class="ct-2">465 properties</p>
                             </div>
-                            <span class="ct-code">KYN</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Pune, Maharashtra</p>
-                                <p class="ct-2">Kalyan Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Mumbai</p>
+                                <p class="ct-2">940 properties</p>
                             </div>
-                            <span class="ct-code">KYN</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Hyderabad, Telangana</p>
-                                <p class="ct-2">Kalyan Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Goa</p>
+                                <p class="ct-2">1200 properties</p>
                             </div>
-                            <span class="ct-code">KYN</span>
-                        </div>
-                       <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Kanpur, Uttar Pradesh</p>
-                                <p class="ct-2">Kanpur Central</p>
-                            </div>
-                            <span class="ct-code">CNB</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Kolkata, west Bangal</p>
-                                <p class="ct-2">Kalyan Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Chennai</p>
+                                <p class="ct-2">450 properties</p>
                             </div>
-                            <span class="ct-code">KYN</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Bengaluru, Karnataka</p>
-                                <p class="ct-2">Kalyan Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Dubai</p>
+                                <p class="ct-2">560 properties</p>
                             </div>
-                            <span class="ct-code">KYN</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Goa, Goa</p>
-                                <p class="ct-2">Kalyan Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Jaipur</p>
+                                <p class="ct-2">640 properties</p>
                             </div>
-                            <span class="ct-code">KYN</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="to-popUp-main pp-up-bus-tp pp-up-cab-to pp-up-train-to" id="to-popup">
-                <div class="from-input">
-                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-                    <input class="from-inp" type="text" placeholder="To" autofocus="on">
-                </div>
-                <div class="from-down">
-                    <div class="recent-city">
-                        <p class="r-city">RECENT CITY</p>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Kanpur, Uttar Pradesh</p>
-                                <p class="ct-2">Kanpur Central</p>
-                            </div>
-                            <span class="ct-code">CNB</span>
-                        </div>
-                    </div>
-                    <div class="popular-city">
-                        <p class="r-city">POPULAR CITY</p>
-
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Chennai, Tamil Nadu</p>
-                                <p class="ct-2">Chennai Central Railway Station</p>
-                            </div>
-                            <span class="ct-code">MAS</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Delhi, Delhi</p>
-                                <p class="ct-2">New Delhi Railway Station</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Hyderabad</p>
+                                <p class="ct-2">222 properties</p>
                             </div>
-                            <span class="ct-code">NDLS</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Mumbai, Maharashtra</p>
-                                <p class="ct-2">Kalyan Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Bangkok</p>
+                                <p class="ct-2">600 properties</p>
                             </div>
-                            <span class="ct-code">KYN</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Pune, Maharashtra</p>
-                                <p class="ct-2">Kalyan Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Singapore</p>
+                                <p class="ct-2">132 properties</p>
                             </div>
-                            <span class="ct-code">KYN</span>
+                            <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Hyderabad, Telangana</p>
-                                <p class="ct-2">Kalyan Junction</p>
+                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
+                            <div class="ct ct-hotel">
+                                <p class="ct-1">Phuket</p>
+                                <p class="ct-2">260 properties</p>
                             </div>
-                            <span class="ct-code">KYN</span>
-                        </div>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Kolkata, west Bangal</p>
-                                <p class="ct-2">Kalyan Junction</p>
-                            </div>
-                            <span class="ct-code">KYN</span>
-                        </div>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Bengaluru, Karnataka</p>
-                                <p class="ct-2">Kalyan Junction</p>
-                            </div>
-                            <span class="ct-code">KYN</span>
-                        </div>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/train.png" alt=""></div>
-                            <div class="ct ct-train">
-                                <p class="ct-1">Goa, Goa</p>
-                                <p class="ct-2">Kalyan Junction</p>
-                            </div>
-                            <span class="ct-code">KYN</span>
+                            <span class="ct-code">City</span>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- DEPARTURE pop up -->
-            <div class="date-popUp-main date-popUp-cab date-popUp-train" id="date-popUp">
+            <div class="date-popUp-main day-popUp-hotel1" id="date-popUp">
                 <div class="dep-pop-inner">
                     <input type="date" name="" id="">
                 </div>
             </div>
-            <!-- class pop up -->
-            <div class="class-down" style="display: none;" id="class-popUp">
-                <div class="recent-city r-ct">
-                    <div class="ct">
-                        <p class="ct-1 ct-2">All Class</p>
+            <div class="date-popUp-main-2 day-popUp-hotel2 day-pop-hms" id="date-popUp2">
+                <div class="dep-pop-inner">
+                    <input type="date" name="" id="">
+                </div>
+            </div>
+            <div class="downcont down-hotel down-bus down-hms">
+                <img src="https://mmt.servedbyadbutler.com/getad.img/;libID=3721623" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!-- citys -->
+    <div class="city-main ct-hms">
+        <div class="city-box">
+            <div class="city-child">
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/images/50x50-Other-23052019.png"
+                            alt=""></span>
+                    <div class="cc">
+                        <h4>Chennai</h4>
+                        <p>Via-<b>Delhi,Mumbai,Coimbatore,Madurai</b></p>
                     </div>
-                    <div class="ct-tr">
-                        <p class="ct-1 ct-2">Sleeper Class</p>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/images/50x50-Ooty-23052019.png"
+                            alt=""></span>
+                    <div class="cc">
+                        <h4>Hyderabad</h4>
+                        <p>Via-<b>Chennai,Mumbai,Bengalore,Delhi</b></p>
                     </div>
-                    <div class="ct-tr">
-                        <p class="ct-1 ct-2">Third AC</p>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/SingaporeDT.JPG"
+                            alt=""></span>
+                    <div class="cc">
+                        <h4>Kolkata</h4>
+                        <p>Via-<b>Delhi,Mumbai,Bengalore,Pune</b></p>
                     </div>
-                    <div class="ct-tr">
-                        <p class="ct-1 ct-2">Second AC</p>
+                </div>
+            </div>
+            <div class="city-child">
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/GoaDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Goa</h4>
+                        <p>Via-<b>Delhi,Mumbai,Pune,Ahmedabad</b></p>
                     </div>
-                    <div class="ct-tr">
-                        <p class="ct-1 ct-2">First AC</p>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/DelhiDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Delhi</h4>
+                        <p>Via-<b>Chennai,Mumbai,Bengalore,Kolkata</b></p>
                     </div>
-                    <div class="ct-tr">
-                        <p class="ct-1 ct-2">Second Seating</p>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/BangaloreDT.JPG"
+                            alt=""></span>
+                    <div class="cc">
+                        <h4>Bengalore</h4>
+                        <p>Via-<b>Delhi,Mumbai,Kolkata,Pune</b></p>
                     </div>
-                    <div class="ct-tr">
-                        <p class="ct-1 ct-2">AC Chair Car</p>
+                </div>
+            </div>
+            <div class="city-child">
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/MumbaiDT.JPG"
+                            alt=""></span>
+                    <div class="cc">
+                        <h4>Mumbai</h4>
+                        <p>Via-<b>Delhi,Mumbai,Chennai,Ahmedabad</b></p>
                     </div>
-                    <div class="ct-tr">
-                        <p class="ct-1 ct-2">First Class</p>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/PuneDT.JPG" alt=""></span>
+                    <div class="cc">
+                        <h4>Pune</h4>
+                        <p>Via-<b>Delhi,Bengalore,Chennai,Ahmedabad</b></p>
                     </div>
-                    <div class="ct-tr">
-                        <p class="ct-1 ct-2">Third AC Economy</p>
+                </div>
+                <div class="cct-c">
+                    <span class="city-img"><img src="https://promos.makemytrip.com/store/JaipurDT.JPG"
+                            alt=""></span>
+                    <div class="cc">
+                        <h4>Jaipur</h4>
+                        <p>Via-<b>Delhi,Mumbai,Kolkata,Pune</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- download app -->
+    <div class="app-container app-container-hotel">
+        <div class="app-main">
+            <div class="app-txt">
+                <h2>Download App Now !</h2>
+                <p>Get the TravleWithDream mobile App and Save More!</p>
+            </div>
+            <div class="app-down">
+                <div class="app-child1">
+                    <div class="app-img"><img src="img/gift-box.png" alt=""></div>
+                    <div class="app-mob">
+                        <p>Use code <b>WELCOMETWD</b> and get upto <b>Rs 1200</b> off on your first domestic flight
+                            booking</p>
+                        <div class="app-inp">
+                            <div class="cuntry-code">
+                                <span><img src="img/india.png" alt=""></span>
+                                <span class="code">+91</span>
+                            </div>
+                            <input class="app-input" type="text" placeholder="Enter Mobile number ">
+                            <button class="app-btn" type="submit">GET APP LINK</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-child2">
+                    <p class="more-way-txt">MORE WAYS TO GET THE APP</p>
+                    <div class="qr-box">
+                        <div class="app-download">
+                            <div class="playstore">
+                                <div class="playimg"><img class="play" src="img/google-play.png" alt=""></div>
+                                <div class="playstore-txt">
+                                    <p class="play-ttx">GET IT NOW</p>
+                                    <P class="gp">Google play</P>
+                                </div>
+                            </div>
+                            <div class="appstore">
+                                <div class="playimg"><img class="apple" src="img/apple.png" alt=""></div>
+                                <div class="playstore-txt">
+                                    <p class="apple-ttx">Download on the</p>
+                                    <P class="gp">App Store</P>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qr">
+                            <img src="img/qr-code.png" alt="">
+                            <p>Scan QR</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="downcont down-hotel down-bus down-train">
-        <div class="sddo"></div>
-        <img src="https://mmt.servedbyadbutler.com/getad.img/;libID=3713316" alt="">
-    </div>
-    </div>
-
     <!-- order container -->
-    <div class="ordernow-container container-bus container-train">
+    <div class="ordernow-container">
         <div class="order-inner" style="border-color: rgb(255, 203, 202);">
             <img class="ord-img" src="	https://www.tripmoney.com/ext/static/TravelLoan/travelLoan.png" alt="">
             <div class="od-box">
@@ -575,84 +596,6 @@
                 <p class="ord-txt"><b>Forex</b> at best exchange rates delivered at your doorstep</p>
             </div>
             <a href="#" class="ord-btn">ORDER NOW<img src="img/right-arrow.png" alt=""></a>
-        </div>
-    </div>
-
-    <!-- citys -->
-    <div class="city-main">
-        <div class="city-box">
-            <div class="city-child">
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/images/50x50-Other-23052019.png"
-                            alt=""></span>
-                    <div class="cc">
-                        <h4>Chennai Trains</h4>
-                        <p>Via-<b>Delhi,Mumbai,Coimbatore,Madurai</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/images/50x50-Ooty-23052019.png"
-                            alt=""></span>
-                    <div class="cc">
-                        <h4>Hyderabad Trains</h4>
-                        <p>Via-<b>Chennai,Mumbai,Bengalore,Delhi</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/SingaporeDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Kolkata Trains</h4>
-                        <p>Via-<b>Delhi,Mumbai,Bengalore,Pune</b></p>
-                    </div>
-                </div>
-            </div>
-            <div class="city-child">
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/GoaDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Goa Trains</h4>
-                        <p>Via-<b>Delhi,Mumbai,Pune,Ahmedabad</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/DelhiDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Delhi Trains</h4>
-                        <p>Via-<b>Chennai,Mumbai,Bengalore,Kolkata</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/BangaloreDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Bengalore Trains</h4>
-                        <p>Via-<b>Delhi,Mumbai,Kolkata,Pune</b></p>
-                    </div>
-                </div>
-            </div>
-            <div class="city-child">
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/MumbaiDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Mumbai Trains</h4>
-                        <p>Via-<b>Delhi,Mumbai,Chennai,Ahmedabad</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/PuneDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Pune Trains</h4>
-                        <p>Via-<b>Delhi,Bengalore,Chennai,Ahmedabad</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/JaipurDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Jaipur Trains</h4>
-                        <p>Via-<b>Delhi,Mumbai,Kolkata,Pune</b></p>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 
@@ -734,7 +677,7 @@
 
     </footer>
 
-    <script src="train.js"></script>
+    <script src="homestay.js"></script>
 
 </body>
 
