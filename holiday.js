@@ -76,44 +76,6 @@ function popUps() {
     to.addEventListener(`mouseleave`, () => {
         toPopUp.style.display = `none`
     })
-    // let datePopUp = document.querySelector(`#date-popUp`)
-    // let date = document.querySelector(`#time`)
-    // let date1 = document.querySelector(`.cl`)
-    // let date2 = document.querySelector(`.cl2`)
-    // date.addEventListener(`click`,()=>{
-    //     datePopUp.style.display=`block`;
-    //     date2.addEventListener(`mouseover`,()=>{
-    //         datePopUp.style.display=`block`;
-    //     })
-    //     date.addEventListener(`mouseout`,()=>{
-    //         datePopUp.style.display=`none`;
-    //     })
-    //     date1.addEventListener(`click`,()=>{
-    //         datePopUp.style.display=`block`;
-    //     })
-    //     datePopUp.addEventListener(`mouseover`,()=>{
-    //         datePopUp.style.display=`block`;
-    //     })
-    // })
-    // let datePopUp2 = document.querySelector(`#date-popUp2`)
-    // let date22 = document.querySelector(`#time2`)
-    // let date3 = document.querySelector(`.cl3`)
-    // let date4 = document.querySelector(`.cl4`)
-    // date22.addEventListener(`click`,()=>{
-    //     datePopUp2.style.display=`block`;
-    //     date3.addEventListener(`click`,()=>{
-    //         datePopUp2.style.display=`block`;
-    //     })
-    //     date4.addEventListener(`mouseover`,()=>{
-    //         datePopUp2.style.display=`block`;
-    //     })
-    //     datePopUp2.addEventListener(`mouseover`,()=>{
-    //         datePopUp2.style.display=`block`;
-    //     })
-    //     date22.addEventListener(`mouseout`,()=>{
-    //         datePopUp2.style.display=`none`;
-    //     })
-    // })
     let langPopUp = document.querySelector(`#lang-pop-up`)
     let langBTN = document.querySelector(`.language`)
     langBTN.addEventListener(`click`,()=>{
