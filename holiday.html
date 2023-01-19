@@ -75,7 +75,7 @@
                 </div>
                 <div class="menu-box">
                     <a id="home" href="home.html">
-                        <div class="menu-child active">
+                        <div class="menu-child">
                             <div><i class="fa-solid fa-plane-up"></i></div>
                             <p>Flights</p>
                         </div>
@@ -111,7 +111,7 @@
                         </div>
                     </a>
                     <a href="holiday.html">
-                        <div class="menu-child">
+                        <div class="menu-child active">
                             <div><i class="fa-solid fa-gift"></i></div>
                             <p>Holiday</p>
                         </div>
@@ -234,7 +234,7 @@
         <div class="container">
             <div class="menu-box">
                 <a id="home" href="home.html">
-                    <div class="menu-child active">
+                    <div class="menu-child">
                         <div><i class="fa-solid fa-plane-up"></i></div>
                         <p>Flights</p>
                     </div>
@@ -270,7 +270,7 @@
                     </div>
                 </a>
                 <a href="holiday.html">
-                    <div class="menu-child">
+                    <div class="menu-child active">
                         <div><i class="fa-solid fa-gift"></i></div>
                         <p>Holiday</p>
                     </div>
@@ -288,60 +288,20 @@
                     <p>Activities</p>
                 </div>
             </div>
-            <div class="option">
-                <div class="op">
-                    <div class="op1">
-                        <input type="radio" name="trip-ops" id="onway" checked="checked">
-                        <label for="onway">ONWAY</label>
-                    </div>
-                    <div class="op2">
-                        <input type="radio" name="trip-ops" id="round-trip">
-                        <label for="round-trip">ROUND TRIP</label>
-                    </div>
-                    <div class="op3">
-                        <input type="radio" name="trip-ops" id="multi-city">
-                        <label for="multi-city">Multi City</label>
-                    </div>
-                </div>
-                <span class="txt">
-                    Book International and Domestic Flights
-                </span>
-            </div>
+            <div class="option"></div>
             <div class="booking">
-                <div class="change"><img class="ch-img" src="img/exchange.png" alt=""></div>
-                <div class="loc ll" id="from">
-                    <span class="l1" id="f1">FROM</span>
-                    <span class="l-city" id="city-A">Kolkata</span>
-                    <span class="l-airport" id="city-A-txt">Netaji Subhash Chandra Bose International Airport</span>
+                <div class="change"><img class="ch-img ch-img2" src="img/exchange.png" alt=""></div>
+                <div class="loc ll loc4" id="from">
+                    <span class="l1" id="f1">FROM CITY</span>
+                    <span class="l-city" id="city-A">New Delhi</span>
+                    <span class="l-airport" id="city-A-txt">India</span>
                 </div>
-                <div class="loc" id="to">
-                    <span class="l1" id="t1">TO</span>
-                    <span class="l-city" id="city-B">Delhi</span>
-                    <span class="l-airport" id="city-B-txt">DEL, Delhi Airport India</span>
+                <div class="loc loc4" id="to">
+                    <span class="l1" id="t1">TO CITY/COUNTRY</span>
+                    <span class="l-city" id="city-B">Goa</span>
+                    <span class="l-airport" id="city-B-txt">India</span>
                 </div>
-                <div class="time" id="time">
-                    <div class="l2 cl">DEPARTURE<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span>
-                    </div>
-                    <div class="date cl2"><span class="day" id="day"></span><span class="mm-yy"><span
-                                id="month"></span>'<span id="year"></span></span></div>
-                    <div class="t-day" id="dayweek"></div>
-                </div>
-                <div class="time" id="time2">
-                    <div class="l2 cl3">RETURN<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span>
-                    </div>
-                    <div class="date cl4"><span class="day" id="day-b"></span><span class="mm-yy"><span
-                                id="month-b"></span>'<span id="year-b"></span></span></div>
-                    <div class="t-day" id="dayweek-b"></div>
-                </div>
-                <div class="position" id="classFlight">
-                    <div class="l2">TRAVELLERS & CLASS<span class="down"><i
-                                class="fa-solid fa-angle-down fa-fw"></i></span></div>
-                    <div class="date"><span class="day">1</span><span class="mm-yy">Traveller</span></div>
-                    <div class="t-txt">
-                        <p class="tp">Economy/Premium Economy</p>
-                        <p class="offer">Group Bookings Available!</p>
-                    </div>
-                </div>
+               
             </div>
             <div class="button"><button class="btn">SEARCH</button></div>
             <!-- from city pop-up -->
@@ -577,11 +537,11 @@
             </div>
         </div>
 
-        <div class="downcont">
+        <div class="downcont downcont2">
             <div class="downChild dc1">
                 <span><img src="img/navigation.png" alt=""></span>
                 <div class="ttxt">
-                    <h6>Where2Go</h6>
+                    <h6>Trip Ideas</h6>
                 </div>
             </div>
             <div class="downChild dc2">
@@ -591,18 +551,10 @@
                     <p>Loan Credit and More</p>
                 </div>
             </div>
-            <div class="downChild dc3">
-                <span><img src="img/window.png" alt=""></span>
-                <div class="ttxt">
-                    <h6>Explore International Flights</h6>
-                    <p>Cheapest Flights to Paris,Bali,Tokyo & more</p>
-                </div>
-            </div>
             <div class="downChild dc4">
                 <span><img src="img/man (1).png" alt=""></span>
                 <div class="ttxt">
-                    <h6>MICE</h6>
-                    <p>Plan Your <span id="spp">Offsite</span> with Us</p>
+                    <h6>Nearby Getaways</h6>
                 </div>
             </div>
             <div class="downChild dc5">
@@ -612,6 +564,24 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="SlidesOnly" class="slide-main">
+        <div class="carousel-inner">
+            <i class="fa-solid fa-angle-left slid-l"></i>
+            <div class="carousel-item">
+                <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/PilgrimageCampaign_1200X320_25July.jpg?crop=1200:320&downsize=1200:320"
+                class="img-1" alt="...">
+                <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/RDS%20Desktop%20New.png?crop=1282:342&downsize=1282:342"
+                class="img-2" alt="...">
+            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/Vh1Supersonic_1200x320_15Dec.jpg?crop=1200:320&downsize=1200:320"
+                class="img-3" alt="...">
+            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/Wildlife_1200x320_22Aug.jpg?crop=1200:320&downsize=1200:320"
+                class="img-4" alt="...">
+            </div>
+            <i class="fa-solid fa-angle-right slid-r"></i>
+        </div>
+       
     </div>
 
     <!-- offer tab -->
@@ -2305,7 +2275,7 @@
 
     </footer>
 
-    <script src="home.js"></script>
+    <script src="holiday.js"></script>
 
 </body>
 

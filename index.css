@@ -614,6 +614,9 @@ hr{
 .nme{
     margin-left: -20px;
 }
+.snd-box{
+    margin-right: 5rem;
+}
 @media(max-width: 480px) {
     .b1{
         margin: auto;

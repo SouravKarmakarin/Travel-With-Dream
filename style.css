@@ -576,7 +576,7 @@ body{
 .change{
     position: relative;
 }
-.change img{
+.ch-img{
     height: 3.2rem;
     position: absolute;
     left: 24.4rem;
@@ -1626,6 +1626,7 @@ footer{
 }
 .fr-pop-home{
     top: 15rem;
+    z-index: 1;
 }
 .tttx-home{
     top: -2.5rem;
@@ -1664,6 +1665,49 @@ footer{
 }
 .cc b:hover{
     color: #008cff;
+}
+.slide-main{
+    margin: 5rem auto 0rem;
+    width: 78.3%;
+    position: relative;
+}
+.carousel-inner{
+    box-shadow: 0 0rem 1.0rem 0 rgb(0 0 0 / 70%);
+    height: 32rem;
+}
+.slid-l{
+    position: absolute;
+    top: 13rem;
+    left: 1.7rem;
+    font-size: 7rem;
+    color: white;
+    cursor: pointer;
+}
+.slid-r{
+    position: absolute;
+    top: 13rem;
+    left: 114rem;
+    font-size: 7rem;
+    color: white;
+    cursor: pointer;
+}
+.img-2{
+    display: none;
+}
+.img-3{
+    display: none;
+}
+.img-4{
+    display: none;
+}
+.loc4{
+    width: 50%;
+}
+.ch-img2{
+    left: 50.5rem;
+}
+.downcont2{
+    width: 45%;
 }
 /* @media(min-width: 1400px){
     html{
