@@ -1667,13 +1667,14 @@ footer{
     color: #008cff;
 }
 .slide-main{
-    margin: 5rem auto 0rem;
+    margin: 6rem auto 0rem;
     width: 78.3%;
     position: relative;
 }
 .carousel-inner{
     box-shadow: 0 0rem 1.0rem 0 rgb(0 0 0 / 70%);
     height: 32rem;
+    cursor: pointer;
 }
 .slid-l{
     position: absolute;
@@ -1708,6 +1709,220 @@ footer{
 }
 .downcont2{
     width: 45%;
+}
+.after-slide-main{
+    margin: 5rem auto 0;
+    width: 80%;
+    height: 10rem;
+    padding-left: 2rem;
+    background-color: white;
+    border-radius: 0.7rem;
+    box-shadow: 0 0rem 1rem 0 rgb(0 0 0 / 20%);
+}
+.after-inner{
+    height: 100%;
+    display: flex;
+}
+.after-child{
+    width: 25%;
+    margin: auto;
+    cursor: pointer;
+    border-left: 2px solid #e1e2e4;
+    height: 4rem;
+    padding-left: 2rem;
+}
+.after-child img{
+    width: 20rem;
+}
+.after-child h5{
+    font-size: 1.9rem;
+    color: #333232;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.after-child p{
+    font-weight: 600;
+    color: #666767;
+}
+.af-ch-1{
+    border-left: none;
+}
+.af-ch-3{
+    margin-top: -0.5rem;
+}
+.to-pop-up-homstay{
+    left: 55rem;
+}
+.holiday-offer-main{
+    width: 80%;
+    margin: 4rem auto 3.4rem;
+    height: 35rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 0rem 1rem 0 rgb(0 0 0 / 20%);
+}
+.holiday-offer-inner{
+    background-image: url(img/CategorySectionBackground.webp);
+    height: 100%;
+    background-position: center;
+    border-radius: 0.7rem;
+    background-size: cover;
+    display: flex;
+    gap: 2rem;
+}
+.holiday-img img{
+    height: 34rem;
+    margin-top: 1rem;
+}
+.holiday-offer-left{
+    width: 50rem;
+    display: flex;
+    gap: 2rem;
+}
+.holiday-of-lf-txt{
+    width: 26rem;
+    padding-top: 7rem;
+}
+.holiday-of-lf-txt h5{
+    color: #3e322b;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.holiday-of-lf-txt h3{
+    color: #773d3c;
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 4.8rem;
+}
+.holiday-of-lf-txt h4{
+    color: #3e322b;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.holiday-of-lf-txt p{
+    color: #4a4a4a;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    margin-top: 0.3rem;
+}
+.hl-img-rt img{
+    height: 13rem;
+    width: 21rem;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+}
+.hl-of-rt-txt p{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    padding-bottom: 0.2rem;
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.hl-of-rt-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 50px;
+}
+.hl-of-rt-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #008cff;
+    border-radius: 0.2rem;
+    color: #008cff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    margin-bottom: 0.4rem;
+    margin-right: 0.5rem;
+    padding: 0.4rem;
+    text-align: center; 
+}
+.hl-of-rt-child{
+    height: 25rem;
+    background-color: #f4faff;
+    margin: 5rem auto;
+    cursor: pointer;
+}
+.holiday-offer-right{
+    display: flex;
+    gap: 1.5rem;
+}
+.v-m{
+    position: relative;
+    top: 6rem;
+    left: 7rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #008cff;
+}
+.th-cn-forx{
+    margin-top: 2.5rem;
+}
+.down-cont-forx{
+    margin-top: 11rem;
+}
+.btn3{
+    height: 4rem;
+    width: 17rem;
+    margin-left: 45.5rem;
+    margin-top: 3.5rem;
+}
+.app-container-forex{
+    margin-top: 5rem;
+}
+.booking-forex{
+    height: 19rem;
+    border: none;
+    width: 95%;
+    margin: -.5rem auto 0rem;
+    border-radius: 0.7rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.bk-fx-img img{
+    height: 6.5rem;
+}
+.bk-fx-inner{
+    display: flex;
+    gap: 1.5rem;
+}
+.bk-fx-txt h3{
+    font-size: 1.9rem;
+    line-height: 1.8rem;
+    color: #333232;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+.bk-fx-txt p{
+    color: #9b9b9b;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+.bk-fx-inner-main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.bk-fx-inner{
+    border: 0.1rem solid #b0b0b0;
+    border-radius: 0.7rem;
+    padding: 1.5rem;
+}
+.oop3{
+    margin-top: -2rem;
 }
 /* @media(min-width: 1400px){
     html{

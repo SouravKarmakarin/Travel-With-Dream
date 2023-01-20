@@ -45,35 +45,6 @@ function date() {
     document.querySelector(`#year-b`).innerHTML = year;
 }
 date();
-function userPop() {
-    let userPop = document.querySelector(`#userChild`)
-    userPop.addEventListener(`mouseover`, () => {
-        document.querySelector(`.user-pop-up`).style.display = `block`;
-        document.querySelector(`#user-downArrow`).style.display = `none`;
-        document.querySelector(`#user-upArrow`).style.display = `block`;
-        let usPop = document.querySelector(`.user-pop-inner`);
-        usPop.addEventListener(`mouseover`, () => {
-            document.querySelector(`.user-pop-up`).style.display = `block`;
-        })
-        usPop.addEventListener(`mouseleave`, () => {
-            document.querySelector(`.user-pop-up`).style.display = `none`;
-            document.querySelector(`#user-downArrow`).style.display = `block`;
-            document.querySelector(`#user-upArrow`).style.display = `none`;
-        })
-    })
-    let langPopUp = document.querySelector(`#lang-pop-up`)
-    let langBTN = document.querySelector(`.language`)
-    langBTN.addEventListener(`click`,()=>{
-        langPopUp.style.display=`block`
-        langPopUp.addEventListener(`mouseover`,()=>{
-            langPopUp.style.display=`block`
-        })
-        langPopUp.addEventListener(`mouseout`,()=>{
-            langPopUp.style.display=`none`
-        })
-    })
-
-}
 function popUps() {
     let fromPopUp = document.querySelector(`#from-popup`)
     let from = document.querySelector(`#from`)
@@ -145,4 +116,32 @@ function popUps() {
     })
 }
 popUps();
+function userPop() {
+    let userPop = document.querySelector(`#userChild`)
+    userPop.addEventListener(`mouseover`, () => {
+        document.querySelector(`.user-pop-up`).style.display = `block`;
+        document.querySelector(`#user-downArrow`).style.display = `none`;
+        document.querySelector(`#user-upArrow`).style.display = `block`;
+        let usPop = document.querySelector(`.user-pop-inner`);
+        usPop.addEventListener(`mouseover`, () => {
+            document.querySelector(`.user-pop-up`).style.display = `block`;
+        })
+        usPop.addEventListener(`mouseleave`, () => {
+            document.querySelector(`.user-pop-up`).style.display = `none`;
+            document.querySelector(`#user-downArrow`).style.display = `block`;
+            document.querySelector(`#user-upArrow`).style.display = `none`;
+        })
+    })
+    let langPopUp = document.querySelector(`#lang-pop-up`)
+    let langBTN = document.querySelector(`.language`)
+    langBTN.addEventListener(`click`,()=>{
+        langPopUp.style.display=`block`
+        langPopUp.addEventListener(`mouseover`,()=>{
+            langPopUp.style.display=`block`
+        })
+        langPopUp.addEventListener(`mouseout`,()=>{
+            langPopUp.style.display=`none`
+        })
+    })
+}
 userPop();
