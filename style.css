@@ -651,7 +651,7 @@ body{
     margin-bottom: 2.5rem;
     font-size: 1.6rem;
 }
-.t2-txt a{
+.t2-txt-a{
     text-decoration: none;
     color: #0069e1;
 }
@@ -1923,6 +1923,52 @@ footer{
 }
 .oop3{
     margin-top: -2rem;
+}
+.ll2{
+    width: 26%;
+    padding-left: 2rem;
+}
+.ch-img3{
+    left: 25.4rem;
+}
+.ddy-ppup-main{
+    left: 57.2rem;
+}
+.ddy-ppup-main2{
+    left: 72.4rem;
+}
+.ttm2{
+    width: 17rem;
+}
+.class-dwn-heli{
+    width: 9rem;
+    top: 12.8rem;
+    left: 88.9rem;
+}
+.passengers{
+    text-align: center;
+}
+.passengers p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.trd-cnt{
+    width: 100%;
+}
+.trd-container-2 {
+    margin: 5rem auto;
+}
+.op5{
+    width: 28rem;
+}
+.t2-txt-a-2{
+    text-decoration: none;
+    color: #959a9e;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.to-main-pop-heli{
+    left: 30rem;
 }
 /* @media(min-width: 1400px){
     html{

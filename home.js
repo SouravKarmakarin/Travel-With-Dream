@@ -7,12 +7,12 @@ function date() {
     const objToday = new Date()
     weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday')
     dayOfWeek = weekday[objToday.getDay()]
-    dayOfWeekB = weekday[objToday.getDay()+0]
+    dayOfWeekB = weekday[objToday.getDay()]
     months = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
     curMonth = months[objToday.getMonth()],
     curYear = objToday.getFullYear()
     year = curYear.toString().substring(2, 4)
-    day = objToday.getDate()
+    day = objToday.getDate()+1
     document.querySelector(`#day`).innerHTML = day;
     document.querySelector(`#dayweek`).innerHTML = dayOfWeek;
     document.querySelector(`#month`).innerHTML = curMonth;
