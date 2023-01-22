@@ -306,7 +306,6 @@ body{
     font-size: 1.9rem;
     font-weight: 600;
     border-radius: 3.0rem;
-    margin: 5.2rem 0rem 0rem 47.5rem;
     cursor: pointer;
 }
 .downcont{
@@ -1658,7 +1657,7 @@ footer{
 }
 .down-hms{
     width: 91%;
-    top: -3rem;
+    top: 0.6rem;
 }
 .ct-hms{
     margin: 10rem auto -11rem;
@@ -1969,6 +1968,203 @@ footer{
 }
 .to-main-pop-heli{
     left: 30rem;
+}
+.tttx-actv{
+    top: .5rem;
+    left: -38.5rem;
+}
+.booking-actv{
+    height: 10rem;
+    width: 63%;
+    margin: 3rem auto 0rem;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+.booking-actv:hover{
+    background-color: #d1f5ff;
+}
+.l-ct-actv{
+    width: 60rem;
+    color: #3f4041;
+}
+.frm-pop-up-actv{
+    left: 20.5rem;
+    top: 14rem;
+    width: 69rem;
+}
+.ct-actv{
+    margin-left: -50rem;
+}
+.app-cont-actv{
+    margin: 15rem auto 0rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8.1rem;
+}
+.button-hm{
+    top: 5.33rem;
+}
+.button-fo{
+    top: 3.5rem;
+}
+.button-tr{
+    top: 5.33rem;
+}
+.btn-2{
+    height: 4rem;
+    width: 18rem;
+}
+.explore-main{
+    width: 80%;
+    margin: 3rem auto 0;
+    border-radius: 0.7rem;
+    padding: 2rem 3rem;
+    box-shadow: 0 0rem 1rem 0 rgb(0 0 0 / 20%);
+    background-image: radial-gradient(circle, rgb(255 255 255 / 0%) 10%, rgb(255 244 244 / 50%) 30%, rgb(174 154 154 / 60%) 200%);
+    background-color: #e8fbff;
+}
+.exp-box-in a{
+    text-decoration: none;
+}
+.explore-inner h2{
+    line-height: 4rem;
+    font-weight: 900;
+    margin-bottom: 1.2rem;
+    font-size: 3.5rem;
+    color: #595a5b;
+    background-image: linear-gradient(90deg, #a67d7d40, transparent);
+    width: 31rem;line-height: 38px;
+    font-weight: 900;
+    margin-bottom: 12px;
+    font-size: 3rem;
+}
+.exp-box-img img{
+    height: 15rem;
+    width: 16rem;
+    border-radius: .5rem;
+}
+.exp-box-in{
+    width: 16.1rem;
+}
+.exp-txt-b{
+    text-align: center;
+    font-weight: 500;
+    color: #626262;
+    font-size: 1.2rem;
+}
+.exp-txt-a{
+    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #111112;
+}
+.explore-slid-box{
+    display: flex;
+    gap: 2rem;
+}
+.explore-slid-box{
+    overflow-y: scroll;
+}
+.explore-slid-box::-webkit-scrollbar{
+    display: none;
+}
+.actv-spcl-box-main{
+    margin: 5rem auto 0;
+    width: 80%;
+    height: 40rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 0rem 1rem 0 rgb(0 0 0 / 20%);
+    background-image: url(https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/desktop/city/DefaultCityBanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 4rem;
+}
+.actv-spcl-inner{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 4rem;
+}
+.act-spcl-fst{
+    height: 30rem;
+    width: 35rem;
+    background-color: #0000009e;
+    color: white;
+    border-radius: 0.6rem;
+    padding: 2rem;
+}
+.act-spcl-snd{
+    height: 23rem;
+    width: 19rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.fst-txt{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 5;
+}
+.send-txt{
+    font-size: 5.5rem;
+    letter-spacing: -0.25rem;
+    line-height: 0;
+}
+.txt-spcl{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-top: 4.5rem;
+}
+.spcl-btn{
+    height: 4rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+.act-snd-img img{
+    height: 12rem;
+    width: 19rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+.act-snd-btm-div h5{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 0.1rem;
+}
+.act-snd-btm-div i{
+    font-size: 1.3rem;
+    color: #85898d;
+}
+.act-price{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.act-snd-btm-div{
+    padding: 1rem;
+}
+.spl-tm{
+    display: inline;
+    font-size: 1.3rem;
+    color: #85898d;
+    font-weight: 500;
+    padding-left: .5rem;
+}
+.actv-app-cont{
+    margin-top: 5rem;
 }
 /* @media(min-width: 1400px){
     html{

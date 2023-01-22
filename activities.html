@@ -51,7 +51,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="child user-child" id="userChild">
+                    <div class="child user-child">
                         <a href="#">
                             <span><img class="user-img" src="img/user.png" alt=""></span>
                             <div class="inner user-inner">
@@ -105,7 +105,7 @@
                         </div>
                     </a>
                     <a href="homestay.html">
-                        <div class="menu-child active">
+                        <div class="menu-child">
                             <div><i class="fa-solid fa-house-chimney"></i></div>
                             <p>Homestays</p>
                         </div>
@@ -129,7 +129,7 @@
                         </div>
                     </a>
                     <a href="activities.html">
-                        <div class="menu-child">
+                        <div class="menu-child active">
                             <div><i class="fa-solid fa-person-hiking"></i></div>
                             <p>Activities</p>
                         </div>
@@ -270,7 +270,7 @@
                     </div>
                 </a>
                 <a href="homestay.html">
-                    <div class="menu-child active">
+                    <div class="menu-child">
                         <div><i class="fa-solid fa-house-chimney"></i></div>
                         <p>Homestays</p>
                     </div>
@@ -294,406 +294,369 @@
                     </div>
                 </a>
                 <a href="activities.html">
-                    <div class="menu-child">
+                    <div class="menu-child active">
                         <div><i class="fa-solid fa-person-hiking"></i></div>
                         <p>Activities</p>
                     </div>
                 </a>
             </div>
-            <div class="option oop2">
+            <div class="option">
                 <div class="op"></div>
-                <span class="txt tttx tttx-home">
-                    Book your ideal Homestay - Villas, Apartments & more.<a href="#"></a>
+                <span class="txt tttx tttx-home tttx-actv">
+                    Book any kind of activity, tour or daytrip
                 </span>
             </div>
-            <div class="booking">
-                <div class="loc loc2" id="from">
-                    <span class="l2">CITY, PROPERTY NAME OR LOCATION</span>
-                    <span class="l-city">Kolkata</span>
-                    <span class="country">India</span>
-                </div>
-                <div class="time time-hms">
-                    <div class="l2 cl">CHECK-IN DATE<span class="down"><i
-                                class="fa-solid fa-angle-down fa-fw"></i></span>
-                    </div>
-                    <div class="date cl2"><span class="day" id="day"></span><span class="mm-yy"><span
-                                id="month"></span>'<span id="year"></span></span></div>
-                    <div class="t-day" id="dayweek"></div>
-                </div>
-                <div class="time time-hms" id="time2">
-                    <div class="l2 cl3">CHECK-OUT DATE<span class="down"><i
-                                class="fa-solid fa-angle-down fa-fw"></i></span>
-                    </div>
-                    <div class="date cl4"><span class="day" id="day-b"></span><span class="mm-yy"><span
-                                id="month-b"></span>'<span id="year-b"></span></span></div>
-                    <div class="t-day" id="dayweek-b"></div>
-                </div>
-                <div class="position ppp2 ppp3">
-                    <div class="l2">GUESTS<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span>
-                    </div>
-                    <div class="date date-homest"><span class="day"></span><span class="mm-yy"></span><span class="day">
-                            2</span><span class="mm-yy">Adults</span></div>
-                </div>
-                <div class="time ttt2 ttt-hms">
-                    <div class="l2">TRAVELLING FOR<span class="down"><i class="fa-solid fa-angle-down fa-fw"></i></span>
-                    </div>
-                    <div class="r-txt">Select a Reason (optional)</div>
-                </div>
+            <div class="booking booking-actv" id="from">
+                <span class="l1" id="f1">SEARCH</span>
+                <span class="l-city l-ct-actv" id="city-A">Activities, Tours or Destination</span>
             </div>
-            <div class="button button-fo"><button class="btn">SEARCH</button></div>
+            <div class="button"><button class="btn">SEARCH</button></div>
             <!-- from city pop-up -->
-            <div class="from-popUp-main fr-pop-home" id="from-popup">
+            <div class="from-popUp-main frm-pop-up-actv" id="from-popup">
                 <div class="from-input">
                     <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-                    <input class="from-inp" type="text" placeholder="From" autofocus="on">
+                    <input class="from-inp" type="text" placeholder="Activities, Tours or Destination" autofocus="on">
                 </div>
                 <div class="from-down">
                     <div class="recent-city">
-                        <p class="r-city">SUGGESSIONS</p>
+                        <p class="r-city">POPULAR CITIES</p>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
-                                <p class="ct-1">Kolkata</p>
-                                <p class="ct-2">590 properties</p>
-                            </div>
-                            <span class="ct-code">City</span>
-                        </div>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
-                                <p class="ct-1">Delhi</p>
-                                <p class="ct-2">879 properties</p>
-                            </div>
-                            <span class="ct-code">City</span>
-                        </div>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
-                                <p class="ct-1">Bengaluru</p>
-                                <p class="ct-2">465 properties</p>
-                            </div>
-                            <span class="ct-code">City</span>
-                        </div>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
-                                <p class="ct-1">Mumbai</p>
-                                <p class="ct-2">940 properties</p>
-                            </div>
-                            <span class="ct-code">City</span>
-                        </div>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
-                                <p class="ct-1">Goa</p>
-                                <p class="ct-2">1200 properties</p>
-                            </div>
-                            <span class="ct-code">City</span>
-                        </div>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
-                                <p class="ct-1">Chennai</p>
-                                <p class="ct-2">450 properties</p>
-                            </div>
-                            <span class="ct-code">City</span>
-                        </div>
-                        <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
                                 <p class="ct-1">Dubai</p>
-                                <p class="ct-2">560 properties</p>
+                                <p class="ct-2">373 activities</p>
                             </div>
                             <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
+                                <p class="ct-1">Kolkata</p>
+                                <p class="ct-2">650 activities</p>
+                            </div>
+                            <span class="ct-code">City</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
+                                <p class="ct-1">Delhi</p>
+                                <p class="ct-2">160 activities</p>
+                            </div>
+                            <span class="ct-code">City</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
+                                <p class="ct-1">Bengaluru</p>
+                                <p class="ct-2">760 activities</p>
+                            </div>
+                            <span class="ct-code">City</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
+                                <p class="ct-1">Mumbai</p>
+                                <p class="ct-2">240 activities</p>
+                            </div>
+                            <span class="ct-code">City</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
+                                <p class="ct-1">Goa</p>
+                                <p class="ct-2">750 activities</p>
+                            </div>
+                            <span class="ct-code">City</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
+                                <p class="ct-1">Chennai</p>
+                                <p class="ct-2">111 activities</p>
+                            </div>
+                            <span class="ct-code">City</span>
+                        </div>
+                        <div class="city">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
                                 <p class="ct-1">Jaipur</p>
-                                <p class="ct-2">640 properties</p>
+                                <p class="ct-2">456 activities</p>
                             </div>
                             <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
                                 <p class="ct-1">Hyderabad</p>
-                                <p class="ct-2">222 properties</p>
+                                <p class="ct-2">96 activities</p>
                             </div>
                             <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
                                 <p class="ct-1">Bangkok</p>
-                                <p class="ct-2">600 properties</p>
+                                <p class="ct-2">132 activities</p>
                             </div>
                             <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
                                 <p class="ct-1">Singapore</p>
-                                <p class="ct-2">132 properties</p>
+                                <p class="ct-2">89 activities</p>
                             </div>
                             <span class="ct-code">City</span>
                         </div>
                         <div class="city">
-                            <div class="plain-icon"><img src="img/home.png" alt=""></div>
-                            <div class="ct ct-hotel">
+                            <div class="plain-icon"><img src="img/expectation.png" alt=""></div>
+                            <div class="ct ct-hotel ct-actv">
                                 <p class="ct-1">Phuket</p>
-                                <p class="ct-2">260 properties</p>
+                                <p class="ct-2">15 activities</p>
                             </div>
                             <span class="ct-code">City</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- DEPARTURE pop up -->
-            <div class="date-popUp-main day-popUp-hotel1" id="date-popUp">
-                <div class="dep-pop-inner">
-                    <input type="date" name="" id="">
+        </div>
+        <div class="explore-main">
+            <div class="explore-inner">
+                <h2>Explore By Interests</h2>
+                <div class="explore-slid-box">
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/143.png" alt=""></span>
+                            <p class="exp-txt-a">Tours & Sightseeing</p>
+                            <p class="exp-txt-b">11256 Activities</p>
+                        </a>
+                    </div>
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/161.png" alt=""></span>
+                            <p class="exp-txt-a">Cultural & Theme Tours</p>
+                            <p class="exp-txt-b">7943 Activities</p>
+                        </a>
+                    </div>
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/404.png" alt=""></span>
+                            <p class="exp-txt-a">Private & Custom Tours</p>
+                            <p class="exp-txt-b">7404 Activities</p>
+                        </a>
+                    </div>
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/416.png" alt=""></span>
+                            <p class="exp-txt-a">Walking & Biking Tours</p>
+                            <p class="exp-txt-b">6259 Activities</p>
+                        </a>
+                    </div>
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/398.png" alt=""></span>
+                            <p class="exp-txt-a">Luxury Occasions</p>
+                            <p class="exp-txt-b">4000 Activities</p>
+                        </a>
+                    </div>
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/369.png" alt=""></span>
+                            <p class="exp-txt-a">Day Trips</p>
+                            <p class="exp-txt-b">3560 Activities</p>
+                        </a>
+                    </div>
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/379.png" alt=""></span>
+                            <p class="exp-txt-a">Airport & City Transfers</p>
+                            <p class="exp-txt-b">2908 Activities</p>
+                        </a>
+                    </div>
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/402.png" alt=""></span>
+                            <p class="exp-txt-a">Outdoor Activities</p>
+                            <p class="exp-txt-b">2605 Activities</p>
+                        </a>
+                    </div>
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/408.png" alt=""></span>
+                            <p class="exp-txt-a">Shore Excursions</p>
+                            <p class="exp-txt-b">1783 Activities</p>
+                        </a>
+                    </div>
+                    <div class="exp-box-in">
+                        <a href="#">
+                            <span class="exp-box-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/static/400.png" alt=""></span>
+                            <p class="exp-txt-a">Extended Tours</p>
+                            <p class="exp-txt-b">1617 Activities</p>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="date-popUp-main-2 day-popUp-hotel2 day-pop-hms" id="date-popUp2">
-                <div class="dep-pop-inner">
-                    <input type="date" name="" id="">
-                </div>
-            </div>
-            <div class="downcont down-hotel down-bus down-hms">
-                <img src="https://mmt.servedbyadbutler.com/getad.img/;libID=3721623" alt="">
             </div>
         </div>
 
-    </div>
-    <!-- citys -->
-    <div class="city-main ct-hms">
-        <div class="city-box">
-            <div class="city-child">
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/images/50x50-Other-23052019.png"
-                            alt=""></span>
-                    <div class="cc">
-                        <h4>Chennai</h4>
-                        <p>Homestays -<b>Villas & Apts</b></p>
-                    </div>
+        <div class="actv-spcl-box-main">
+            <div class="actv-spcl-inner">
+                <div class="act-spcl-fst">
+                    <p class="fst-txt">TWD EXCLUSIVE</p>
+                    <h2 class="send-txt">Theme Parks</h2>
+                    <p class="txt-spcl">Best theme and water parks offering multiple experiences in the form of rides, water slides and snow attractions!</p>
+                    <span class="spcl-btn">EXPLORE MORE</span>
                 </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/images/50x50-Ooty-23052019.png"
-                            alt=""></span>
-                    <div class="cc">
-                        <h4>Hyderabad</h4>
-                        <p>Homestays -<b>Villas & Apts</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/SingaporeDT.JPG"
-                            alt=""></span>
-                    <div class="cc">
-                        <h4>Kolkata</h4>
-                        <p>Homestays -<b>Villas & Apts</b></p>
+                <div class="act-spcl-snd">
+                    <span class="act-snd-img"><img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/c/47392/media5ELVGCAT778GN.jpeg" alt=""></span>
+                    <div class="act-snd-btm-div">
+                        <h5>Snow Park at Baga, Goa - Entry Ticket</h5>
+                        <span><i class="fa-regular fa-clock"></i><p class="spl-tm">8 Hours</p></span>
+                        <p class="act-price">₹ 420<span class="spl-tm">Adult</span></p>
                     </div>
                 </div>
             </div>
-            <div class="city-child">
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/GoaDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Goa</h4>
-                        <p>Homestays -<b>Villas & Apts</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/DelhiDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Delhi</h4>
-                        <p>Homestays -<b>Villas & Apts</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/BangaloreDT.JPG"
-                            alt=""></span>
-                    <div class="cc">
-                        <h4>Bengalore</h4>
-                        <p>Homestays -<b>Villas & Apts</b></p>
-                    </div>
-                </div>
-            </div>
-            <div class="city-child">
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/MumbaiDT.JPG"
-                            alt=""></span>
-                    <div class="cc">
-                        <h4>Mumbai</h4>
-                        <p>Homestays -<b>Villas & Apts</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/PuneDT.JPG" alt=""></span>
-                    <div class="cc">
-                        <h4>Pune</h4>
-                        <p>Homestays -<b>Villas & Apts</b></p>
-                    </div>
-                </div>
-                <div class="cct-c">
-                    <span class="city-img"><img src="https://promos.makemytrip.com/store/JaipurDT.JPG"
-                            alt=""></span>
-                    <div class="cc">
-                        <h4>Jaipur</h4>
-                        <p>Homestays -<b>Villas & Apts</b></p>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </div>
 
-    <!-- download app -->
-    <div class="app-container app-container-hotel">
-        <div class="app-main">
-            <div class="app-txt">
-                <h2>Download App Now !</h2>
-                <p>Get the TravleWithDream mobile App and Save More!</p>
-            </div>
-            <div class="app-down">
-                <div class="app-child1">
-                    <div class="app-img"><img src="img/gift-box.png" alt=""></div>
-                    <div class="app-mob">
-                        <p>Use code <b>WELCOMETWD</b> and get upto <b>Rs 1200</b> off on your first domestic flight
-                            booking</p>
-                        <div class="app-inp">
-                            <div class="cuntry-code">
-                                <span><img src="img/india.png" alt=""></span>
-                                <span class="code">+91</span>
+        <!-- download app -->
+        <div class="app-container app-cont-actv actv-app-cont">
+            <div class="app-main">
+                <div class="app-txt">
+                    <h2>Download App Now !</h2>
+                    <p>Get the TravleWithDream mobile App and Save More!</p>
+                </div>
+                <div class="app-down">
+                    <div class="app-child1">
+                        <div class="app-img"><img src="img/gift-box.png" alt=""></div>
+                        <div class="app-mob">
+                            <p>Use code <b>WELCOMETWD</b> and get upto <b>Rs 1200</b> off on your first domestic flight
+                                booking</p>
+                            <div class="app-inp">
+                                <div class="cuntry-code">
+                                    <span><img src="img/india.png" alt=""></span>
+                                    <span class="code">+91</span>
+                                </div>
+                                <input class="app-input" type="text" placeholder="Enter Mobile number ">
+                                <button class="app-btn" type="submit">GET APP LINK</button>
                             </div>
-                            <input class="app-input" type="text" placeholder="Enter Mobile number ">
-                            <button class="app-btn" type="submit">GET APP LINK</button>
                         </div>
                     </div>
-                </div>
-                <div class="app-child2">
-                    <p class="more-way-txt">MORE WAYS TO GET THE APP</p>
-                    <div class="qr-box">
-                        <div class="app-download">
-                            <div class="playstore">
-                                <div class="playimg"><img class="play" src="img/google-play.png" alt=""></div>
-                                <div class="playstore-txt">
-                                    <p class="play-ttx">GET IT NOW</p>
-                                    <P class="gp">Google play</P>
+                    <div class="app-child2">
+                        <p class="more-way-txt">MORE WAYS TO GET THE APP</p>
+                        <div class="qr-box">
+                            <div class="app-download">
+                                <div class="playstore">
+                                    <div class="playimg"><img class="play" src="img/google-play.png" alt=""></div>
+                                    <div class="playstore-txt">
+                                        <p class="play-ttx">GET IT NOW</p>
+                                        <P class="gp">Google play</P>
+                                    </div>
+                                </div>
+                                <div class="appstore">
+                                    <div class="playimg"><img class="apple" src="img/apple.png" alt=""></div>
+                                    <div class="playstore-txt">
+                                        <p class="apple-ttx">Download on the</p>
+                                        <P class="gp">App Store</P>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="appstore">
-                                <div class="playimg"><img class="apple" src="img/apple.png" alt=""></div>
-                                <div class="playstore-txt">
-                                    <p class="apple-ttx">Download on the</p>
-                                    <P class="gp">App Store</P>
-                                </div>
+                            <div class="qr">
+                                <img src="img/qr-code.png" alt="">
+                                <p>Scan QR</p>
                             </div>
-                        </div>
-                        <div class="qr">
-                            <img src="img/qr-code.png" alt="">
-                            <p>Scan QR</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- order container -->
-    <div class="ordernow-container">
-        <div class="order-inner" style="border-color: rgb(255, 203, 202);">
-            <img class="ord-img" src="	https://www.tripmoney.com/ext/static/TravelLoan/travelLoan.png" alt="">
-            <div class="od-box">
-                <span class="tr-money">
-                    <p class="trip">Trip</p><img src="img/mountain.png" alt="">
-                    <p class="oney">oney</p>
-                </span>
-                <p class="ord-txt"><b>Forex</b> at best exchange rates delivered at your doorstep</p>
-            </div>
-            <a href="#" class="ord-btn">ORDER NOW<img src="img/right-arrow.png" alt=""></a>
+        <!-- about us -->
+        <div class="about-us-main">
+            <p class="about-h">PRODUCT OFFERING</p>
+            <p class="about-p">Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays
+                and
+                Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate
+                Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights
+                From
+                US, Book Flights From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel Blog, PNR Status,
+                MakeMyTrip Advertising Solutions, One Way Cab</p>
+
+            <p class="about-h">TravleWithDream</p>
+            <P class="about-p">About Us, Investor Relations, Careers, TWD Foundation, CSR Policy, myPartner - Travel
+                Agent
+                Portal, Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us</P>
+
+            <p class="about-h">ABOUT THE SITE</p>
+            <p class="about-p">Customer Support, Payment Security, Privacy Policy, User Agreement, Terms of Service,
+                More
+                Offices, Make A Payment, Work From Home</p>
+
+            <p class="about-h">QUICK LINKS</p>
+            <p class="about-p">Flights Discount Coupons, Domestic Airlines, Indigo Airlines, Air Asia, SpiceJet, GoAir,
+                Air
+                India, Air India Express, Vistara, New Delhi Mumbai Flights, Pune Delhi Flights, Delhi Chennai Flights,
+                Delhi Guwahati Flights, Mumbai Varanasi Flights, Guwahati Delhi Flights, Goa Delhi Flights, Delhi Goa
+                Flights, Delhi Chennai Flights</p>
+
+            <p class="about-h">IMPORTANT LINKS</p>
+            <p class="about-p">Cheap Flights, Flight Status, Chennai Mumbai flights, Mumbai Hyderabad flights, Hyderabad
+                Bangalore flights, Pune Bangalore flights, Mumbai Jaipur flights, Mumbai Chandigarh flights, Bangalore
+                Kolkata flights, Hyderabad Visakhapatnam flights, Chandigarh Bangalore flights, Jaipur Mumbai flights,
+                Mumbai Shirdi Flights, Delhi to Tirupati Flight, Indore to Mumbai Flight, Kolkata to Rupsi Flight, Rupsi
+                to
+                Guwahati Flight, Pasighat to Guwahati Flight, Delhi to Khajuraho flight, Cochin to Agatti Island Flight
+            </p>
+
+            <p class="about-h">CORPORATE TRAVEL</p>
+            <p class="about-p">Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for
+                SME,
+                GST Invoice for International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus
+                booking, myBiz - Best Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate
+                Travel,
+                GST Invoice for Hotels, myBiz for Small Business, Free cancellation on International Flights</p>
         </div>
-    </div>
-
-    <!-- about us -->
-    <div class="about-us-main">
-        <p class="about-h">PRODUCT OFFERING</p>
-        <p class="about-p">Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and
-            Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate
-            Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From
-            US, Book Flights From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel Blog, PNR Status,
-            MakeMyTrip Advertising Solutions, One Way Cab</p>
-
-        <p class="about-h">TravleWithDream</p>
-        <P class="about-p">About Us, Investor Relations, Careers, TWD Foundation, CSR Policy, myPartner - Travel Agent
-            Portal, Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us</P>
-
-        <p class="about-h">ABOUT THE SITE</p>
-        <p class="about-p">Customer Support, Payment Security, Privacy Policy, User Agreement, Terms of Service, More
-            Offices, Make A Payment, Work From Home</p>
-
-        <p class="about-h">QUICK LINKS</p>
-        <p class="about-p">Flights Discount Coupons, Domestic Airlines, Indigo Airlines, Air Asia, SpiceJet, GoAir, Air
-            India, Air India Express, Vistara, New Delhi Mumbai Flights, Pune Delhi Flights, Delhi Chennai Flights,
-            Delhi Guwahati Flights, Mumbai Varanasi Flights, Guwahati Delhi Flights, Goa Delhi Flights, Delhi Goa
-            Flights, Delhi Chennai Flights</p>
-
-        <p class="about-h">IMPORTANT LINKS</p>
-        <p class="about-p">Cheap Flights, Flight Status, Chennai Mumbai flights, Mumbai Hyderabad flights, Hyderabad
-            Bangalore flights, Pune Bangalore flights, Mumbai Jaipur flights, Mumbai Chandigarh flights, Bangalore
-            Kolkata flights, Hyderabad Visakhapatnam flights, Chandigarh Bangalore flights, Jaipur Mumbai flights,
-            Mumbai Shirdi Flights, Delhi to Tirupati Flight, Indore to Mumbai Flight, Kolkata to Rupsi Flight, Rupsi to
-            Guwahati Flight, Pasighat to Guwahati Flight, Delhi to Khajuraho flight, Cochin to Agatti Island Flight</p>
-
-        <p class="about-h">CORPORATE TRAVEL</p>
-        <p class="about-p">Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for SME,
-            GST Invoice for International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus
-            booking, myBiz - Best Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate Travel,
-            GST Invoice for Hotels, myBiz for Small Business, Free cancellation on International Flights</p>
-    </div>
-    <!-- footer -->
-    <footer>
-        <section class="footer">
-            <div class="box-container">
-                <span><i class="fas fa-envelope i"></i></span>
-                <div class="box">
-                    <h3>our email</h3>
-                    <p>abcindia@gmail.com</p>
-                    <p>user@gmail.com</p>
+        <!-- footer -->
+        <footer>
+            <section class="footer">
+                <div class="box-container">
+                    <span><i class="fas fa-envelope i"></i></span>
+                    <div class="box">
+                        <h3>our email</h3>
+                        <p>abcindia@gmail.com</p>
+                        <p>user@gmail.com</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="box-container">
-                <span><i class="fas fa-clock i"></i></span>
-                <div class="box">
-                    <h3>opening hours</h3>
-                    <p>09:00am to 07:00pm</p>
+                <div class="box-container">
+                    <span><i class="fas fa-clock i"></i></span>
+                    <div class="box">
+                        <h3>opening hours</h3>
+                        <p>09:00am to 07:00pm</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="box-container">
-                <div class="box">
-                    <span><i class="fas fa-map-marker-alt i"></i></span>
-                    <h3>our office</h3>
-                    <p>kolkata, West Bengal-700019</p>
+                <div class="box-container">
+                    <div class="box">
+                        <span><i class="fas fa-map-marker-alt i"></i></span>
+                        <h3>our office</h3>
+                        <p>kolkata, West Bengal-700019</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="box-container">
-                <span><i class="fas fa-phone i"></i></span>
-                <div class="box">
-                    <h3>our number</h3>
-                    <p>+123-456-7890</p>
-                    <p>+111-555-3330</p>
+                <div class="box-container">
+                    <span><i class="fas fa-phone i"></i></span>
+                    <div class="box">
+                        <h3>our number</h3>
+                        <p>+123-456-7890</p>
+                        <p>+111-555-3330</p>
+                    </div>
                 </div>
-            </div>
 
-        </section>
-        <div class="credit"> &copy; copyright 2023 by <span>Sourav Karmakar</span> | all rights reserved!</div>
+            </section>
+            <div class="credit"> &copy; copyright 2023 by <span>Sourav Karmakar</span> | all rights reserved!</div>
 
-    </footer>
+        </footer>
 
-    <script src="homestay.js"></script>
+        <script src="activities.js"></script>
 
 </body>
 
